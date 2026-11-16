@@ -181,9 +181,10 @@ const LINKS = {
   }
 
   function setupButtons() {
-    const links = document.querySelectorAll("#buy-appstore, #buy-direct, .buy-direct-btn, #dl-mac");
+    const links = document.querySelectorAll("#buy-appstore, #buy-direct, .buy-direct-btn, #dl-mac, #dl-free");
     links.forEach(a => {
-      const kind = a.id === "buy-appstore" ? "appStore" : a.id === "dl-mac" ? "download" : "direct";
+      const kind = a.id === "buy-appstore" ? "appStore"
+        : (a.id === "dl-mac" || a.id === "dl-free") ? "download" : "direct";
       const url = LINKS[kind];
       if (url) {
         a.href = url;
