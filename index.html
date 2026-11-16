@@ -1,42 +1,132 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Butter Edit — 지원 · Support</title>
-<link rel="stylesheet" href="style.css">
+<title>Butter Edit — Fast folder-based RAW editor for Mac</title>
+<meta name="description" content="Open a folder and start right away — view, cull and develop with no import. Your photos never leave your Mac, and all AI runs on-device.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Butter Edit">
+<meta property="og:description" content="Fast folder-based RAW editor for Mac">
+<meta property="og:image" content="https://mmangmm.github.io/butter-edit/img/en/02-edit.webp">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/icon.png">
+<link rel="stylesheet" href="home.css?v=16">
 </head>
 <body>
-<main>
-<header><span class="dot"></span><b>Butter Edit</b><nav><a href="index.html">지원 · Support</a><a href="refund.html">환불 · Refunds</a><a href="terms.html">약관 · Terms</a><a href="contact.html">연락처 · Contact</a><a href="privacy.html">개인정보 · Privacy</a></nav></header>
+<!-- 이 페이지는 앱 · App Store Connect의 '지원 URL'이기도 하다. 아래 #support 칸(문의 · 자주 묻는 것)을 지우지 말 것. -->
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#"><img src="img/icon.png" alt="" width="30" height="30">Butter Edit</a>
+    <nav>
+      <a href="#features" data-i="navFeatures">Features</a>
+      <a href="#pricing" data-i="navPricing">Pricing</a>
+      <a href="buy.html" data-i="navBuy">Buy</a>
+      <a href="#support" data-i="navSupport">Support</a>
+      <a href="privacy.html" data-i="navPrivacy">Privacy</a>
+    </nav>
+    <label class="lang-pick"><span hidden data-i="langLabel">Language</span><select id="lang" aria-label="Language"></select></label>
+  </div>
+</header>
 
-<section class="lang" lang="ko">
-<h1>버터 편집 지원</h1>
-<p>버터 편집은 맥용 사진 편집 앱입니다. 외장 디스크의 사진 폴더를 그 자리에서 바로 열어 고르고, 보정하고, 내보냅니다.</p>
-<h2>문의</h2>
-<p>질문이나 문제는 이메일로 보내 주세요: <a href="mailto:thefilmtravel@gmail.com">thefilmtravel@gmail.com</a><br>
-<span class="muted">맥 기종, macOS 버전, 카메라 기종과 어떤 일이 있었는지 적어 주시면 빨리 도와드릴 수 있습니다.</span></p>
-<h2>자주 묻는 것</h2>
-<p><b>체험과 구입</b><br>앱은 무료로 받습니다. “30일 무료 체험 시작”을 클릭하면 30일 동안 모든 기능을 쓸 수 있습니다. 체험이 끝나면 보기 · 고르기 · 보정은 계속 되고, 내보내기에는 한 번 구입하는 잠금 해제가 필요합니다. 체험이 끝나도 저절로 결제되지 않습니다.</p>
-<p><b>다른 맥에서 쓰기</b><br>같은 Apple 계정으로 로그인한 맥에서 설정의 “구입” 탭 → “구입 복원”을 클릭합니다.</p>
-<p><b>보정한 내용은 어디에 저장되나요</b><br>원본 사진은 바뀌지 않습니다. 보정값은 사진 옆의 <code>.xmp</code> 파일에 저장됩니다.</p>
-<p><b>RAW 파일이 열리지 않아요</b><br>macOS가 지원하는 카메라의 RAW를 엽니다. 새 카메라는 macOS 업데이트 뒤에 열리는 경우가 많습니다.</p>
-<p><b>테더 촬영</b><br>USB로 연결한 카메라를 앱에서 조작하고, 찍은 사진을 고른 폴더로 바로 받습니다. 처음 연결할 때 카메라 접근을 허락해 주세요.</p>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <img class="icon" src="img/icon.png" alt="" width="104" height="104">
+    <h1 data-i="subtitle">Fast folder-based RAW editor</h1>
+    <p class="promo" data-i="promo">Open a folder and start right away — view, cull and develop with no import. Your photos never leave your Mac, and all AI runs on-device.</p>
+    <div class="cta">
+      <a class="btn primary" id="buy-appstore"><span data-i="ctaAppStore">Mac App Store</span><small data-i="soon">Coming soon</small></a>
+      <a class="btn secondary" id="buy-direct"><span data-i="ctaDirect">Buy direct</span><small><span data-i="ctaDirectSub">Mac · Windows</span><span class="soon-tag"> · <span data-i="soon">Coming soon</span></span></small></a>
+    </div>
+    <p class="note" data-i="ctaNote">Free to download, with a 30-day free trial of every feature. Requires macOS 26 or later.</p>
+    <!-- 첫 화면 그림 — 캐논 R5 II RAW(사용자 사진 ANDR7146, 빙하)를 버터 에디트로 노을빛을 살려 보정해 현상한 것 -->
+    <img class="shot" data-alt-i="heroAlt" src="img/hero-raw.webp" alt="" width="1600" height="1067">
+    <p class="caption"><b data-i="f2t">RAW tuned for your camera</b> — <span data-i="f2d">Profiles matched to more than 130 cameras. Exposure, tone curve, color grading — and fast enough to move through thousands of shots.</span></p>
+  </div>
 </section>
 
-<section class="lang" lang="en">
-<h1>Butter Edit Support</h1>
-<p>Butter Edit is a photo editor for the Mac. Open photo folders right where they are, even on external drives, then cull, edit and export.</p>
-<h2>Contact</h2>
-<p>Email us with any question or problem: <a href="mailto:thefilmtravel@gmail.com">thefilmtravel@gmail.com</a><br>
-<span class="muted">Please include your Mac model, macOS version, camera model and what happened.</span></p>
-<h2>FAQ</h2>
-<p><b>Trial and purchase</b><br>The app is free to download. Click “Start 30-Day Free Trial” to use every feature for 30 days. After the trial, viewing, culling and editing keep working; exporting needs the one-time unlock purchase. You are never charged automatically.</p>
-<p><b>Using another Mac</b><br>On a Mac signed in with the same Apple Account, open Settings → Purchase and click “Restore Purchases”.</p>
-<p><b>Where are my edits saved?</b><br>Your original photos are never changed. Edits are saved in <code>.xmp</code> files next to the photos.</p>
-<p><b>A RAW file won’t open</b><br>Butter Edit opens RAW files from cameras that macOS supports. New cameras often work after a macOS update.</p>
-<p><b>Tethered shooting</b><br>Control a camera connected by USB and bring new photos straight into your folder. Allow camera access the first time you connect.</p>
+<section class="features" id="features">
+  <div class="wrap">
+    <div class="feature">
+      <div class="text"><h2 data-i="f1t">No import. Just your folders.</h2><p data-i="f1d">Open a folder on an SD card or external SSD and your photos are there. No catalog, no database — edits live in XMP files next to your photos, and originals stay untouched.</p></div>
+      <img class="shot" data-shot="01-browse" data-alt="0" src="img/en/01-browse.webp" alt="Browsing a folder of photos" width="1600" height="1092" loading="lazy">
+    </div>
+    <!-- 얼굴 보정: 그림은 AI로 만든 인물(초상권 문제 없음). 한국어는 05-face-ko, 나머지 언어는 영어 앱 화면 05-face-en -->
+    <div class="feature" id="feature-face">
+      <div class="text"><h2 data-i="f5t">Face and skin retouching</h2><p data-i="f5d">Smooth skin and even out tone while keeping texture. Reshape face, jaw, eyes, nose and lips with sliders, and remove one person’s blemishes across many photos at once.</p></div>
+      <img class="shot" data-face data-alt="4" src="img/05-face-en.webp" alt="Face retouching" width="1600" height="1071" loading="lazy">
+    </div>
+    <div class="feature">
+      <div class="text"><h2 data-i="f3t">AI masks</h2><p data-i="f3d">Select the subject, sky, background or people in one click and adjust each mask on its own. Add, subtract and intersect to refine.</p></div>
+      <img class="shot" data-shot="03-mask" data-alt="2" src="img/en/03-mask.webp" alt="AI masks" width="1600" height="1092" loading="lazy">
+    </div>
+    <div class="feature">
+      <div class="text"><h2 data-i="f4t">AI removal, on your Mac</h2><p data-i="f4d">Paint over what you want gone and it is filled in to match. All AI runs on-device — your photos never leave your Mac.</p></div>
+      <img class="shot" data-shot="04-erase" data-alt="3" src="img/en/04-erase.webp" alt="AI removal" width="1600" height="1092" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="band" id="all">
+  <div class="wrap">
+    <h2 class="title" data-i="allHeading">Everything inside</h2>
+    <p class="lead" data-i="intro">Butter Edit is a photo editor with no import and no catalog.</p>
+    <div class="groups" id="groups"><!-- home.js가 i18n.js의 기능 목록으로 채운다 --></div>
+  </div>
+</section>
+
+<section class="pricing" id="pricing">
+  <div class="wrap">
+    <h2 class="title" data-i="priceHeading">Pricing</h2>
+    <p class="lead" data-i="priceLead">Not a subscription. Buy once, keep it.</p>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><h3 data-i="p1t">Free download</h3><p data-i="p1d">Browsing, culling and editing are always free.</p></div>
+      <div class="step"><span class="n">2</span><h3 data-i="p2t">30-day free trial</h3><p data-i="p2d">Click “Start 30-Day Free Trial” to use every feature for 30 days. You are never charged automatically.</p></div>
+      <div class="step price"><span class="n">3</span><h3 data-i="p3t">One-time unlock</h3><p data-i="p3d">After the trial only exporting is locked. One purchase unlocks it for good.</p>
+        <div class="amount" data-i="price">US$14.99</div>
+        <div><span class="badge" data-i="priceBadge">Launch price</span><span class="later" data-i="priceLater">The price goes up on March 1, 2027</span></div>
+      </div>
+    </div>
+    <div class="more">
+      <div class="box"><h3><span data-i="directT">Buy direct for Mac and Windows</span><span class="pill" data-i="soon">Coming soon</span></h3><p data-i="directD">Buy outside the App Store and use it on Mac and Windows, on up to 3 computers. Opening soon.</p></div>
+      <div class="box"><h3><span data-i="winT">Windows version coming soon</span></h3><p data-i="winD">The same edits, masks and AI removal on Windows. In the works now.</p></div>
+    </div>
+    <p style="text-align:center"><a class="buy-link" href="buy.html" data-i="buyLink">Compare the two ways to buy</a> →</p>
+  </div>
+</section>
+
+<section class="support" id="support">
+  <div class="wrap">
+    <h2 class="title" data-i="supportHeading">Support</h2>
+    <div class="card">
+      <h3 data-i="contactT">Contact</h3>
+      <p><span data-i="contactD">Email us with any question or problem:</span> <a href="mailto:thefilmtravel@gmail.com">thefilmtravel@gmail.com</a><br>
+      <span class="muted" data-i="contactHint">Please include your Mac model, macOS version, camera model and what happened.</span></p>
+      <h3 data-i="faqT">FAQ</h3>
+      <details><summary data-i="q1">Trial and purchase</summary><p data-i="a1">The app is free to download. Click “Start 30-Day Free Trial” to use every feature for 30 days. After the trial, viewing, culling and editing keep working; exporting needs the one-time unlock purchase. You are never charged automatically.</p></details>
+      <details><summary data-i="q2">Using another Mac</summary><p data-i="a2">On a Mac signed in with the same Apple Account, open Settings → Purchase and click “Restore Purchases”.</p></details>
+      <details><summary data-i="q3">Where are my edits saved?</summary><p data-i="a3">Your original photos are never changed. Edits are saved in .xmp files next to the photos.</p></details>
+      <details><summary data-i="q4">A RAW file won’t open</summary><p data-i="a4">Butter Edit opens RAW files from cameras that macOS supports. New cameras often work after a macOS update.</p></details>
+      <details><summary data-i="q5">Tethered shooting</summary><p data-i="a5">Control a camera connected by USB and bring new photos straight into your folder. Allow camera access the first time you connect.</p></details>
+    </div>
+  </div>
 </section>
 </main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Butter Edit</span>
+    <a href="refund.html" data-i="footRefund">Refund Policy</a>
+    <a href="terms.html" data-i="footTerms">Terms</a>
+    <a href="contact.html" data-i="footContact">Contact</a>
+    <a href="privacy.html" data-i="footPrivacy">Privacy Policy</a>
+    <a href="#support" data-i="navSupport">Support</a>
+    <a href="mailto:thefilmtravel@gmail.com">thefilmtravel@gmail.com</a>
+  </div>
+</footer>
+
+<script src="i18n.js?v=16"></script>
+<script src="home.js?v=16"></script>
 </body>
 </html>
