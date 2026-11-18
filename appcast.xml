@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Butter Edit</title>
+    <language>ko</language>
+    <item>
+      <title>버터 편집 1.0</title>
+      <pubDate>Wed, 18 Nov 2026 13:08:51 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      
+      <enclosure url="https://github.com/mmangmm/butter-edit/releases/download/v1.0/ButterEdit-1.0.dmg" sparkle:edSignature="3tzugODfo+087O1ESKsU/vDAPOGTCNdbJzdSreibb1TEkVvnKCvgK6MarC1OO9+ZTdE3v1nuG+2N3eYTIjGUBg==" length="156213952" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>

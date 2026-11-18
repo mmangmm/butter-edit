@@ -1,8 +1,8 @@
 // 구입 주소 — 생기면 여기만 채운다. 비어 있으면 버튼이 '곧 나옴'으로 보인다.
 const LINKS = {
   appStore: "",   // 맥 앱스토어 주소 (심사 승인 뒤)
-  direct: "",     // Dodo 결제 링크 — https://checkout.dodopayments.com/buy/<pdt_…>?quantity=1 (시험: test.checkout…)
-  download: "",   // 직접 판매 맥 DMG 주소(GitHub Releases) — 구입 완료 페이지(thanks.html)의 내려받기 버튼
+  direct: "",     // Dodo 인증이 승인되면 "https://checkout.dodopayments.com/buy/pdt_0NsDRRyl1IPadr41aOBlq?quantity=1" 를 넣는다. 비어 있으면 구입 단추가 '곧 나옴'으로 뜬다
+  download: "https://github.com/mmangmm/butter-edit/releases/download/v1.0/ButterEdit-1.0.dmg",   // 직접 판매 맥 DMG 주소(GitHub Releases) — 구입 완료 페이지(thanks.html)의 내려받기 버튼
 };
 
 (function () {
