@@ -1,7 +1,7 @@
 // 구입 주소 — 생기면 여기만 채운다. 비어 있으면 버튼이 '곧 나옴'으로 보인다.
 const LINKS = {
   appStore: "",   // 맥 앱스토어 주소 (심사 승인 뒤)
-  direct: "",     // Dodo 인증이 승인되면 "https://checkout.dodopayments.com/buy/pdt_0NsDRRyl1IPadr41aOBlq?quantity=1" 를 넣는다. 비어 있으면 구입 단추가 '곧 나옴'으로 뜬다
+  direct: "",     // Dodo 판매자 승인이 나면 "https://checkout.dodopayments.com/buy/pdt_0NsDRRyl1IPadr41aOBlq?quantity=1" 를 넣는다(승인 전에는 not-found로 간다). 비어 있으면 버튼은 그대로 보이고 클릭하면 안내 창이 뜬다
   download: "https://github.com/mmangmm/butter-edit/releases/download/v1.0/ButterEdit-1.0.dmg",   // 직접 판매 맥 DMG 주소(GitHub Releases) — 구입 완료 페이지(thanks.html)의 내려받기 버튼
 };
 
@@ -187,7 +187,7 @@ const LINKS = {
         : (a.id === "dl-mac" || a.id === "dl-free") ? "download" : "direct";
       const url = LINKS[kind];
       if (url) {
-        a.href = url;
+        a.href = url; a.hidden = false;
         a.querySelectorAll("[data-i=soon], .soon-tag").forEach(n => n.remove());
         if (kind === "direct") {
           // 결제 화면으로 가기 전에 이메일을 두 번 받는다(같아야 넘어간다) — 키가 이 주소로 간다.
@@ -196,8 +196,11 @@ const LINKS = {
           a.setAttribute("role", "button");
           a.addEventListener("click", e => { e.preventDefault(); dlg.showModal(); dlg.querySelector("input").focus(); });
         }
+      } else if (kind === "appStore") {
+        a.remove();   // 앱스토어에 나오기 전에는 버튼을 보이지 않는다('곧 나옴'을 쓰지 않는다)
       } else {
-        a.classList.add("soon"); a.setAttribute("aria-disabled", "true");
+        // 직접 구입은 '곧 나옴' 표시 없이 보통 버튼으로 두고, 클릭하면 안내 창을 띄운다(판매자 승인 전)
+        if (kind !== "direct") { a.classList.add("soon"); a.setAttribute("aria-disabled", "true"); }
         if (kind === "direct") {
           a.setAttribute("role", "button"); a.tabIndex = 0;
           const dlg = soonDialog();   // 문구는 apply()가 채운다
