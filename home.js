@@ -1,7 +1,7 @@
 // 구입 주소 — 생기면 여기만 채운다. 비어 있으면 버튼이 '곧 나옴'으로 보인다.
 const LINKS = {
   appStore: "",   // 맥 앱스토어 주소 (심사 승인 뒤)
-  direct: "",     // Dodo 판매자 승인이 나면 "https://checkout.dodopayments.com/buy/pdt_0NsDRRyl1IPadr41aOBlq?quantity=1" 를 넣는다(승인 전에는 not-found로 간다). 비어 있으면 버튼은 그대로 보이고 클릭하면 안내 창이 뜬다
+  direct: "https://checkout.dodopayments.com/buy/pdt_0NsDRRyl1IPadr41aOBlq?quantity=1",   // Dodo 실제 모드 결제 링크(상품 Butter Edit, ₩24,900 / US$14.99)
   download: "https://github.com/mmangmm/butter-edit/releases/download/v1.0.1/ButterEdit-1.0.1.dmg",   // 직접 판매 맥 DMG 주소(GitHub Releases) — 구입 완료 페이지(thanks.html)의 내려받기 버튼
   downloadWin: "https://github.com/mmangmm/butter-edit/releases/download/win-v1.0.1/ButterEdit-Setup-1.0.1.exe",   // 윈도우 설치 파일(GitHub Releases, 태그 win-v<판>)
 };
