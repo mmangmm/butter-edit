@@ -4,6 +4,37 @@
     <title>Butter Edit</title>
     <language>ko</language>
     <item>
+      <title>Butter Edit 1.0.1 (Windows)</title>
+      <pubDate>Tue, 24 Nov 2026 00:51:02 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <enclosure url="https://github.com/mmangmm/butter-edit/releases/download/win-v1.0.1/ButterEdit-Setup-1.0.1.exe" sparkle:os="windows" sparkle:edSignature="j3Vxy3uI+SXRmp1ppnexpqaKDZ+6MLqgo2x0ni8nViKjgLL1/oW0yi4FREA0oKJbWXaeB97eBbb5dDFlyD7WAw==" length="555354985" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>버터 편집 1.0.1</title>
+      <pubDate>Tue, 24 Nov 2026 00:54:49 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>버터 에디트 1.0.1</h3>
+<ul>
+  <li>노출 · 대비 · 밝은 영역 · 어두운 영역 · 흰색 · 검정 손잡이의 세기와 모양을 더 자연스럽게 다듬었습니다.</li>
+  <li>디헤이즈 · 텍스처 · 부분 대비를 새로 짜 결이 원래 크기에서도 또렷합니다.</li>
+  <li>색상 혼합 · 색 보정의 반응을 고르게 다듬었습니다.</li>
+  <li>캐논 · 후지 · DJI 등 여러 카메라의 RAW 밝기와 화이트밸런스를 바로잡고, 파나소닉 · 라이카 · OM · 리코 · 시그마 · 아이폰 17 Pro Max · DJI 카메라 프로필을 더했습니다.</li>
+  <li>RF24-70 렌즈 보정의 가장자리를 고쳤습니다.</li>
+</ul>
+<h3>Butter Edit 1.0.1</h3>
+<ul>
+  <li>Exposure, contrast, highlights, shadows, whites and blacks respond more naturally.</li>
+  <li>Dehaze, texture and clarity are rebuilt and stay crisp at full size.</li>
+  <li>Smoother response for the color mixer and color grading.</li>
+  <li>Better RAW brightness and white balance for many Canon, Fujifilm and DJI cameras, plus new camera profiles for Panasonic, Leica, OM System, Ricoh, Sigma, iPhone 17 Pro Max and DJI.</li>
+  <li>Fixed the edges of the RF24-70 lens correction.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/mmangmm/butter-edit/releases/download/v1.0.1/ButterEdit-1.0.1.dmg" sparkle:edSignature="RmzOmk4aKbD7PnVuYGgKMkNfREO7KF8ZsRn5pOdSu0HLgRaxY+UICy0ky6c1C3x4fqj3POcNSlOa6Rk2LgBZBg==" length="156499729" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>버터 편집 1.0</title>
       <pubDate>Wed, 18 Nov 2026 13:08:51 +0000</pubDate>
       <sparkle:version>1</sparkle:version>

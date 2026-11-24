@@ -2,7 +2,8 @@
 const LINKS = {
   appStore: "",   // 맥 앱스토어 주소 (심사 승인 뒤)
   direct: "",     // Dodo 판매자 승인이 나면 "https://checkout.dodopayments.com/buy/pdt_0NsDRRyl1IPadr41aOBlq?quantity=1" 를 넣는다(승인 전에는 not-found로 간다). 비어 있으면 버튼은 그대로 보이고 클릭하면 안내 창이 뜬다
-  download: "https://github.com/mmangmm/butter-edit/releases/download/v1.0/ButterEdit-1.0.dmg",   // 직접 판매 맥 DMG 주소(GitHub Releases) — 구입 완료 페이지(thanks.html)의 내려받기 버튼
+  download: "https://github.com/mmangmm/butter-edit/releases/download/v1.0.1/ButterEdit-1.0.1.dmg",   // 직접 판매 맥 DMG 주소(GitHub Releases) — 구입 완료 페이지(thanks.html)의 내려받기 버튼
+  downloadWin: "https://github.com/mmangmm/butter-edit/releases/download/win-v1.0.1/ButterEdit-Setup-1.0.1.exe",   // 윈도우 설치 파일(GitHub Releases, 태그 win-v<판>)
 };
 
 (function () {
@@ -181,10 +182,10 @@ const LINKS = {
   }
 
   function setupButtons() {
-    const links = document.querySelectorAll("#buy-appstore, #buy-direct, .buy-direct-btn, #dl-mac, #dl-free");
+    const links = document.querySelectorAll("#buy-appstore, #buy-direct, .buy-direct-btn, #dl-mac, #dl-free, #dl-win");
     links.forEach(a => {
       const kind = a.id === "buy-appstore" ? "appStore"
-        : (a.id === "dl-mac" || a.id === "dl-free") ? "download" : "direct";
+        : (a.id === "dl-mac" || a.id === "dl-free") ? "download" : a.id === "dl-win" ? "downloadWin" : "direct";
       const url = LINKS[kind];
       if (url) {
         a.href = url; a.hidden = false;
