@@ -6,7 +6,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Open folders where they are",
-     "d": "SD cards, external SSDs, any folder on your Mac. Changes you make in Finder show up right away."
+     "d": "SD cards, external SSDs, any folder on your computer. On Mac, changes you make in Finder show up right away."
     },
     {
      "t": "Edits in XMP next to each photo",
@@ -18,7 +18,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Thumbnails that travel with the drive",
-     "d": "The thumbnail cache lives in a hidden folder on the same drive as the photos, so the second visit is instant, even on another Mac. Choose its size or location in Settings."
+     "d": "The thumbnail cache lives in a hidden folder on the same drive as the photos, so the second visit is instant, even on another computer. Choose its size or location in Settings."
     },
     {
      "t": "Previews built ahead of time",
@@ -47,7 +47,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Every common RAW format",
-     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ and more. If macOS can’t read a brand-new camera yet, Butter Edit edits the embedded JPEG and tells you so."
+     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ and more. On Mac, if macOS can’t read a brand-new camera yet, Butter Edit edits the embedded JPEG and tells you so."
     },
     {
      "t": "JPEG, HEIC and more, with the same tools",
@@ -60,7 +60,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Light and color",
-     "d": "Exposure, contrast, highlights, shadows, whites, blacks, texture, clarity, dehaze, vibrance and saturation, with Auto Tone (⌘U) and clipping warnings (J)."
+     "d": "Exposure, contrast, highlights, shadows, whites, blacks, texture, clarity, dehaze, vibrance and saturation, with Auto Tone (⌘U · Ctrl+U) and clipping warnings (J)."
     },
     {
      "t": "White balance",
@@ -93,7 +93,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "Every AI feature runs on your Mac. Your photos are never uploaded.",
+   "lead": "Every AI feature runs on your computer. Your photos are never uploaded.",
    "items": [
     {
      "t": "AI cull",
@@ -138,7 +138,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Second display",
-     "d": "Show the current photo large, or the whole folder as a grid, on another monitor (⌘F11) — for clients or the people on set."
+     "d": "Show the current photo large, or the whole folder as a grid, on another monitor (⌘F11 · Ctrl+F11) — for clients or the people on set."
     }
    ]
   },
@@ -192,7 +192,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Batch export",
-     "d": "Export every selected photo at once (⇧⌘E)."
+     "d": "Export every selected photo at once (⇧⌘E · Ctrl+Shift+E)."
     }
    ]
   },
@@ -205,10 +205,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "Dark, cream or automatic",
-     "d": "A dark ink theme, a light cream theme, or follow macOS."
+     "d": "A dark ink theme, a light cream theme, or follow your system setting."
     },
     {
-     "t": "AppleScript automation",
+     "t": "AppleScript automation (Mac)",
      "d": "About 50 commands to open folders, rate, develop, apply presets, export and merge, all answering in JSON — handy for scripts and AI agents. There are no destructive commands."
     },
     {
@@ -224,7 +224,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "폴더를 그 자리에서 열기",
-     "d": "SD카드, 외장 SSD, 맥 안의 어느 폴더든 그대로 엽니다. Finder에서 바꾼 내용도 바로 보입니다."
+     "d": "SD카드, 외장 SSD, 컴퓨터 안의 어느 폴더든 그대로 엽니다. 맥에서는 Finder에서 바꾼 내용도 바로 보입니다."
     },
     {
      "t": "보정은 사진 옆 XMP에",
@@ -236,7 +236,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "썸네일은 드라이브와 함께",
-     "d": "썸네일은 사진과 같은 드라이브의 숨은 폴더에 남아, 두 번째부터는 다른 맥에서도 바로 뜹니다. 크기와 위치는 설정에서 고릅니다."
+     "d": "썸네일은 사진과 같은 드라이브의 숨은 폴더에 남아, 두 번째부터는 다른 컴퓨터에서도 바로 뜹니다. 크기와 위치는 설정에서 고릅니다."
     },
     {
      "t": "미리보기를 미리 만들기",
@@ -265,7 +265,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "흔한 RAW 형식은 모두",
-     "d": "CR3 · CR2 · NEF · ARW · RAF · RW2 · ORF · DNG · 3FR · IIQ 등. macOS가 아직 못 읽는 새 카메라는 안에 든 JPEG로 보정하고 그렇다고 알려 줍니다."
+     "d": "CR3 · CR2 · NEF · ARW · RAF · RW2 · ORF · DNG · 3FR · IIQ 등. 맥에서는 macOS가 아직 못 읽는 새 카메라는 안에 든 JPEG로 보정하고 그렇다고 알려 줍니다."
     },
     {
      "t": "JPEG · HEIC도 같은 도구로",
@@ -278,7 +278,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "빛과 색",
-     "d": "노출 · 대비 · 밝은 영역 · 어두운 영역 · 흰색 · 검정 · 텍스처 · 부분 대비 · 디헤이즈 · 생동감 · 채도. 자동 톤(⌘U)과 클리핑 표시(J)."
+     "d": "노출 · 대비 · 밝은 영역 · 어두운 영역 · 흰색 · 검정 · 텍스처 · 부분 대비 · 디헤이즈 · 생동감 · 채도. 자동 톤(⌘U · Ctrl+U)과 클리핑 표시(J)."
     },
     {
      "t": "화이트밸런스",
@@ -311,7 +311,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "AI는 모두 맥 안에서 돕니다. 사진은 어디에도 올라가지 않습니다.",
+   "lead": "AI는 모두 내 컴퓨터 안에서 돕니다. 사진은 어디에도 올라가지 않습니다.",
    "items": [
     {
      "t": "AI 선별",
@@ -356,7 +356,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "두 번째 모니터",
-     "d": "지금 사진을 크게, 또는 폴더를 격자로 다른 모니터에 띄웁니다(⌘F11). 고객이나 현장 사람들과 함께 볼 때."
+     "d": "지금 사진을 크게, 또는 폴더를 격자로 다른 모니터에 띄웁니다(⌘F11 · Ctrl+F11). 고객이나 현장 사람들과 함께 볼 때."
     }
    ]
   },
@@ -410,7 +410,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "한꺼번에 내보내기",
-     "d": "고른 사진을 모두 한 번에 내보냅니다(⇧⌘E)."
+     "d": "고른 사진을 모두 한 번에 내보냅니다(⇧⌘E · Ctrl+Shift+E)."
     }
    ]
   },
@@ -423,10 +423,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "다크 · 크림 · 자동",
-     "d": "먹색 다크 화면, 밝은 크림 화면, 또는 macOS 설정 따라가기."
+     "d": "먹색 다크 화면, 밝은 크림 화면, 또는 시스템 설정 따라가기."
     },
     {
-     "t": "AppleScript 자동 조작",
+     "t": "AppleScript 자동 조작(맥)",
      "d": "폴더 열기 · 별점 · 현상 · 프리셋 · 내보내기 · 합성까지 50개쯤의 명령이 JSON으로 답합니다. 스크립트나 AI 에이전트와 함께 쓰기 좋고, 지우는 명령은 없습니다."
     },
     {
@@ -442,7 +442,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "フォルダをその場で開く",
-     "d": "SDカード、外付けSSD、Mac内のどのフォルダでもそのまま開きます。Finderでの変更もすぐに反映されます。"
+     "d": "SDカード、外付けSSD、パソコン内のどのフォルダでもそのまま開きます。MacではFinderでの変更もすぐに反映されます。"
     },
     {
      "t": "編集は写真の隣のXMPに",
@@ -454,7 +454,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "サムネールはドライブと一緒に",
-     "d": "サムネールのキャッシュは写真と同じドライブの隠しフォルダに保存。2回目からは別のMacでも一瞬で表示されます。サイズと場所は設定で選べます。"
+     "d": "サムネールのキャッシュは写真と同じドライブの隠しフォルダに保存。2回目からは別のパソコンでも一瞬で表示されます。サイズと場所は設定で選べます。"
     },
     {
      "t": "プレビューを先回りして作成",
@@ -483,7 +483,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "主要なRAW形式はすべて",
-     "d": "CR3、CR2、NEF、ARW、RAF、RW2、ORF、DNG、3FR、IIQなど。macOSがまだ読めない新しいカメラは、埋め込みJPEGで編集してその旨をお知らせします。"
+     "d": "CR3、CR2、NEF、ARW、RAF、RW2、ORF、DNG、3FR、IIQなど。MacではmacOSがまだ読めない新しいカメラは、埋め込みJPEGで編集してその旨をお知らせします。"
     },
     {
      "t": "JPEGやHEICも同じツールで",
@@ -496,7 +496,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "光と色",
-     "d": "露光量、コントラスト、ハイライト、シャドウ、白レベル、黒レベル、テクスチャ、明瞭度、かすみの除去、自然な彩度、彩度。自動トーン(⌘U)とクリッピング表示(J)。"
+     "d": "露光量、コントラスト、ハイライト、シャドウ、白レベル、黒レベル、テクスチャ、明瞭度、かすみの除去、自然な彩度、彩度。自動トーン(⌘U・Ctrl+U)とクリッピング表示(J)。"
     },
     {
      "t": "ホワイトバランス",
@@ -529,7 +529,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "AIはすべてMac上で動きます。写真がアップロードされることはありません。",
+   "lead": "AIはすべてパソコン上で動きます。写真がアップロードされることはありません。",
    "items": [
     {
      "t": "AI選別",
@@ -574,7 +574,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "セカンドディスプレイ",
-     "d": "表示中の写真を大きく、またはフォルダをグリッドで別のモニターに表示(⌘F11)。クライアントや現場スタッフと一緒に確認できます。"
+     "d": "表示中の写真を大きく、またはフォルダをグリッドで別のモニターに表示(⌘F11・Ctrl+F11)。クライアントや現場スタッフと一緒に確認できます。"
     }
    ]
   },
@@ -628,7 +628,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "まとめて書き出し",
-     "d": "選んだ写真をすべて一度に書き出します(⇧⌘E)。"
+     "d": "選んだ写真をすべて一度に書き出します(⇧⌘E・Ctrl+Shift+E)。"
     }
    ]
   },
@@ -641,10 +641,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "ダーク・クリーム・自動",
-     "d": "墨色のダーク、明るいクリーム、またはmacOSの設定に合わせる。"
+     "d": "墨色のダーク、明るいクリーム、またはシステムの設定に合わせる。"
     },
     {
-     "t": "AppleScriptによる自動化",
+     "t": "AppleScriptによる自動化（Mac）",
      "d": "フォルダを開く、レーティング、現像、プリセット、書き出し、合成まで約50のコマンドがJSONで応答。スクリプトやAIエージェントと組み合わせやすく、削除するコマンドはありません。"
     },
     {
@@ -660,7 +660,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "就地打开文件夹",
-     "d": "SD 卡、外置 SSD 或 Mac 上的任何文件夹都能直接打开。在“访达”中所做的更改也会立即显示。"
+     "d": "SD 卡、外置 SSD 或电脑上的任何文件夹都能直接打开。在 Mac 上，在“访达”中所做的更改也会立即显示。"
     },
     {
      "t": "编辑保存在照片旁的 XMP 中",
@@ -672,7 +672,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "缩略图随硬盘走",
-     "d": "缩略图缓存保存在照片所在硬盘的隐藏文件夹中，第二次打开即刻显示，换一台 Mac 也一样。可在设置中选择大小和位置。"
+     "d": "缩略图缓存保存在照片所在硬盘的隐藏文件夹中，第二次打开即刻显示，换一台电脑也一样。可在设置中选择大小和位置。"
     },
     {
      "t": "提前生成预览",
@@ -701,7 +701,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "常见 RAW 格式全部支持",
-     "d": "CR3、CR2、NEF、ARW、RAF、RW2、ORF、DNG、3FR、IIQ 等。macOS 暂不支持的新相机，会改为编辑内嵌 JPEG 并告诉你。"
+     "d": "CR3、CR2、NEF、ARW、RAF、RW2、ORF、DNG、3FR、IIQ 等。在 Mac 上，macOS 暂不支持的新相机，会改为编辑内嵌 JPEG 并告诉你。"
     },
     {
      "t": "JPEG、HEIC 等使用同样的工具",
@@ -714,7 +714,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "光线与颜色",
-     "d": "曝光、对比度、高光、阴影、白色、黑色、纹理、清晰度、去朦胧、自然饱和度和饱和度，另有自动色调（⌘U）和溢出警告（J）。"
+     "d": "曝光、对比度、高光、阴影、白色、黑色、纹理、清晰度、去朦胧、自然饱和度和饱和度，另有自动色调（⌘U · Ctrl+U）和溢出警告（J）。"
     },
     {
      "t": "白平衡",
@@ -747,7 +747,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "所有 AI 功能都在你的 Mac 上运行。照片绝不会被上传。",
+   "lead": "所有 AI 功能都在你的电脑上运行。照片绝不会被上传。",
    "items": [
     {
      "t": "AI 筛选",
@@ -792,7 +792,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "第二台显示器",
-     "d": "在另一台显示器上大图显示当前照片，或以网格显示整个文件夹（⌘F11），方便与客户或现场人员一起查看。"
+     "d": "在另一台显示器上大图显示当前照片，或以网格显示整个文件夹（⌘F11 · Ctrl+F11），方便与客户或现场人员一起查看。"
     }
    ]
   },
@@ -846,7 +846,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "批量导出",
-     "d": "一次导出所有选中的照片（⇧⌘E）。"
+     "d": "一次导出所有选中的照片（⇧⌘E · Ctrl+Shift+E）。"
     }
    ]
   },
@@ -859,10 +859,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "深色、奶油色或自动",
-     "d": "墨色深色主题、明亮的奶油色主题，或跟随 macOS 设置。"
+     "d": "墨色深色主题、明亮的奶油色主题，或跟随系统设置。"
     },
     {
-     "t": "AppleScript 自动化",
+     "t": "AppleScript 自动化（Mac）",
      "d": "约 50 条命令，可打开文件夹、评分、冲印、应用预设、导出和合成，全部以 JSON 回应，便于脚本和 AI 代理使用。没有删除类命令。"
     },
     {
@@ -878,7 +878,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "就地開啟資料夾",
-     "d": "SD 卡、外接 SSD 或 Mac 上的任何資料夾都能直接開啟。在 Finder 中所做的變更也會立即顯示。"
+     "d": "SD 卡、外接 SSD 或電腦上的任何資料夾都能直接開啟。在 Mac 上，在 Finder 中所做的變更也會立即顯示。"
     },
     {
      "t": "編輯儲存在照片旁的 XMP",
@@ -890,7 +890,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "縮圖跟著磁碟走",
-     "d": "縮圖快取存在照片所在磁碟的隱藏資料夾中，第二次開啟即刻顯示，換一台 Mac 也一樣。可在設定中選擇大小與位置。"
+     "d": "縮圖快取存在照片所在磁碟的隱藏資料夾中，第二次開啟即刻顯示，換一台電腦也一樣。可在設定中選擇大小與位置。"
     },
     {
      "t": "預先製作預覽",
@@ -919,7 +919,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "常見 RAW 格式全都支援",
-     "d": "CR3、CR2、NEF、ARW、RAF、RW2、ORF、DNG、3FR、IIQ 等。macOS 尚未支援的新相機，會改為編輯內嵌 JPEG 並告訴你。"
+     "d": "CR3、CR2、NEF、ARW、RAF、RW2、ORF、DNG、3FR、IIQ 等。在 Mac 上，macOS 尚未支援的新相機，會改為編輯內嵌 JPEG 並告訴你。"
     },
     {
      "t": "JPEG、HEIC 等使用相同工具",
@@ -932,7 +932,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "光線與色彩",
-     "d": "曝光、對比、亮部、陰影、白色、黑色、紋理、清晰度、去朦朧、細節飽和度與飽和度，另有自動色調（⌘U）與裁切警告（J）。"
+     "d": "曝光、對比、亮部、陰影、白色、黑色、紋理、清晰度、去朦朧、細節飽和度與飽和度，另有自動色調（⌘U · Ctrl+U）與裁切警告（J）。"
     },
     {
      "t": "白平衡",
@@ -965,7 +965,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "所有 AI 功能都在你的 Mac 上執行。照片絕不會被上傳。",
+   "lead": "所有 AI 功能都在你的電腦上執行。照片絕不會被上傳。",
    "items": [
     {
      "t": "AI 挑選",
@@ -1010,7 +1010,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "第二台顯示器",
-     "d": "在另一台顯示器上放大顯示目前照片，或以格狀顯示整個資料夾（⌘F11），方便與客戶或現場人員一起看。"
+     "d": "在另一台顯示器上放大顯示目前照片，或以格狀顯示整個資料夾（⌘F11 · Ctrl+F11），方便與客戶或現場人員一起看。"
     }
    ]
   },
@@ -1064,7 +1064,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "批次輸出",
-     "d": "一次輸出所有選取的照片（⇧⌘E）。"
+     "d": "一次輸出所有選取的照片（⇧⌘E · Ctrl+Shift+E）。"
     }
    ]
   },
@@ -1077,10 +1077,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "深色、奶油色或自動",
-     "d": "墨色深色主題、明亮的奶油色主題，或跟隨 macOS 設定。"
+     "d": "墨色深色主題、明亮的奶油色主題，或跟隨系統設定。"
     },
     {
-     "t": "AppleScript 自動化",
+     "t": "AppleScript 自動化（Mac）",
      "d": "約 50 個命令，可開啟資料夾、評分、沖洗、套用預設集、輸出與合併，全部以 JSON 回應，方便搭配腳本與 AI 代理。沒有刪除類命令。"
     },
     {
@@ -1096,7 +1096,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Ordner direkt öffnen",
-     "d": "SD-Karten, externe SSDs, jeder Ordner auf deinem Mac. Änderungen im Finder erscheinen sofort."
+     "d": "SD-Karten, externe SSDs, jeder Ordner auf deinem Computer. Auf dem Mac erscheinen Änderungen im Finder sofort."
     },
     {
      "t": "Bearbeitungen in XMP neben jedem Foto",
@@ -1108,7 +1108,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Miniaturen reisen mit dem Laufwerk",
-     "d": "Der Miniaturen-Cache liegt in einem versteckten Ordner auf demselben Laufwerk wie die Fotos – beim zweiten Mal geht es sofort, auch an einem anderen Mac. Größe und Ort wählst du in den Einstellungen."
+     "d": "Der Miniaturen-Cache liegt in einem versteckten Ordner auf demselben Laufwerk wie die Fotos – beim zweiten Mal geht es sofort, auch an einem anderen Computer. Größe und Ort wählst du in den Einstellungen."
     },
     {
      "t": "Vorschauen im Voraus",
@@ -1137,7 +1137,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Alle gängigen RAW-Formate",
-     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ und mehr. Kann macOS eine ganz neue Kamera noch nicht lesen, bearbeitet Butter Edit das eingebettete JPEG und sagt dir Bescheid."
+     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ und mehr. Auf dem Mac gilt: Kann macOS eine ganz neue Kamera noch nicht lesen, bearbeitet Butter Edit das eingebettete JPEG und sagt dir Bescheid."
     },
     {
      "t": "JPEG, HEIC und mehr mit denselben Werkzeugen",
@@ -1150,7 +1150,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Licht und Farbe",
-     "d": "Belichtung, Kontrast, Lichter, Tiefen, Weiß, Schwarz, Struktur, Klarheit, Dunst entfernen, Dynamik und Sättigung, dazu Auto-Tonwert (⌘U) und Beschneidungswarnung (J)."
+     "d": "Belichtung, Kontrast, Lichter, Tiefen, Weiß, Schwarz, Struktur, Klarheit, Dunst entfernen, Dynamik und Sättigung, dazu Auto-Tonwert (⌘U · Strg+U) und Beschneidungswarnung (J)."
     },
     {
      "t": "Weißabgleich",
@@ -1183,7 +1183,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "Jede KI-Funktion läuft auf deinem Mac. Deine Fotos werden nie hochgeladen.",
+   "lead": "Jede KI-Funktion läuft auf deinem Computer. Deine Fotos werden nie hochgeladen.",
    "items": [
     {
      "t": "KI-Aussortieren",
@@ -1228,7 +1228,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Zweiter Bildschirm",
-     "d": "Zeig das aktuelle Foto groß oder den ganzen Ordner als Raster auf einem weiteren Monitor (⌘F11) – für Kunden oder das Team am Set."
+     "d": "Zeig das aktuelle Foto groß oder den ganzen Ordner als Raster auf einem weiteren Monitor (⌘F11 · Strg+F11) – für Kunden oder das Team am Set."
     }
    ]
   },
@@ -1282,7 +1282,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Stapelexport",
-     "d": "Alle ausgewählten Fotos auf einmal exportieren (⇧⌘E)."
+     "d": "Alle ausgewählten Fotos auf einmal exportieren (⇧⌘E · Strg+Umschalt+E)."
     }
    ]
   },
@@ -1295,10 +1295,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "Dunkel, Creme oder automatisch",
-     "d": "Ein dunkles Tinten-Design, ein helles Creme-Design – oder wie in macOS eingestellt."
+     "d": "Ein dunkles Tinten-Design, ein helles Creme-Design – oder wie im System eingestellt."
     },
     {
-     "t": "Automatisierung mit AppleScript",
+     "t": "Automatisierung mit AppleScript (Mac)",
      "d": "Rund 50 Befehle zum Öffnen von Ordnern, Bewerten, Entwickeln, Anwenden von Presets, Exportieren und Zusammenfügen, alle mit Antwort in JSON – praktisch für Skripte und KI-Agenten. Löschbefehle gibt es keine."
     },
     {
@@ -1314,7 +1314,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Ouvrir les dossiers là où ils sont",
-     "d": "Cartes SD, SSD externes, n’importe quel dossier de votre Mac. Les changements faits dans le Finder apparaissent aussitôt."
+     "d": "Cartes SD, SSD externes, n’importe quel dossier de votre ordinateur. Sur Mac, les changements faits dans le Finder apparaissent aussitôt."
     },
     {
      "t": "Retouches en XMP à côté de chaque photo",
@@ -1326,7 +1326,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Des vignettes qui voyagent avec le disque",
-     "d": "Le cache de vignettes est placé dans un dossier masqué sur le même disque que les photos : la deuxième visite est instantanée, même sur un autre Mac. Taille et emplacement se règlent dans les Réglages."
+     "d": "Le cache de vignettes est placé dans un dossier masqué sur le même disque que les photos : la deuxième visite est instantanée, même sur un autre ordinateur. Taille et emplacement se règlent dans les Réglages."
     },
     {
      "t": "Aperçus préparés à l’avance",
@@ -1355,7 +1355,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Tous les formats RAW courants",
-     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ et plus. Si macOS ne lit pas encore un appareil tout récent, Butter Edit retouche le JPEG intégré et vous le signale."
+     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ et plus. Sur Mac, si macOS ne lit pas encore un appareil tout récent, Butter Edit retouche le JPEG intégré et vous le signale."
     },
     {
      "t": "JPEG, HEIC et plus, avec les mêmes outils",
@@ -1368,7 +1368,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Lumière et couleur",
-     "d": "Exposition, contraste, hautes lumières, ombres, blancs, noirs, texture, clarté, correction du voile, vibrance et saturation, avec tonalité auto (⌘U) et alerte d’écrêtage (J)."
+     "d": "Exposition, contraste, hautes lumières, ombres, blancs, noirs, texture, clarté, correction du voile, vibrance et saturation, avec tonalité auto (⌘U · Ctrl+U) et alerte d’écrêtage (J)."
     },
     {
      "t": "Balance des blancs",
@@ -1401,7 +1401,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "Toutes les fonctions d’IA tournent sur votre Mac. Vos photos ne sont jamais envoyées.",
+   "lead": "Toutes les fonctions d’IA tournent sur votre ordinateur. Vos photos ne sont jamais envoyées.",
    "items": [
     {
      "t": "Tri par IA",
@@ -1446,7 +1446,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Second écran",
-     "d": "Affichez la photo en cours en grand, ou tout le dossier en grille, sur un autre moniteur (⌘F11) — pour les clients ou l’équipe sur le plateau."
+     "d": "Affichez la photo en cours en grand, ou tout le dossier en grille, sur un autre moniteur (⌘F11 · Ctrl+F11) — pour les clients ou l’équipe sur le plateau."
     }
    ]
   },
@@ -1500,7 +1500,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Exportation par lot",
-     "d": "Exportez d’un coup toutes les photos sélectionnées (⇧⌘E)."
+     "d": "Exportez d’un coup toutes les photos sélectionnées (⇧⌘E · Ctrl+Maj+E)."
     }
    ]
   },
@@ -1513,10 +1513,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "Sombre, crème ou automatique",
-     "d": "Un thème sombre couleur encre, un thème clair crème, ou le réglage de macOS."
+     "d": "Un thème sombre couleur encre, un thème clair crème, ou le réglage du système."
     },
     {
-     "t": "Automatisation AppleScript",
+     "t": "Automatisation AppleScript (Mac)",
      "d": "Une cinquantaine de commandes pour ouvrir des dossiers, noter, développer, appliquer des préréglages, exporter et fusionner, toutes répondant en JSON — pratique pour les scripts et les agents IA. Aucune commande destructrice."
     },
     {
@@ -1532,7 +1532,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Abre las carpetas donde están",
-     "d": "Tarjetas SD, SSD externos o cualquier carpeta de tu Mac. Los cambios que hagas en el Finder aparecen al momento."
+     "d": "Tarjetas SD, SSD externos o cualquier carpeta de tu ordenador. En Mac, los cambios que hagas en el Finder aparecen al momento."
     },
     {
      "t": "Ediciones en XMP junto a cada foto",
@@ -1544,7 +1544,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Miniaturas que viajan con el disco",
-     "d": "La caché de miniaturas vive en una carpeta oculta del mismo disco que las fotos, así que la segunda vez es instantánea, incluso en otro Mac. Elige su tamaño o ubicación en Ajustes."
+     "d": "La caché de miniaturas vive en una carpeta oculta del mismo disco que las fotos, así que la segunda vez es instantánea, incluso en otro ordenador. Elige su tamaño o ubicación en Ajustes."
     },
     {
      "t": "Vistas previas preparadas de antemano",
@@ -1573,7 +1573,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Todos los formatos RAW habituales",
-     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ y más. Si macOS aún no lee una cámara muy nueva, Butter Edit edita el JPEG incrustado y te lo indica."
+     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ y más. En Mac, si macOS aún no lee una cámara muy nueva, Butter Edit edita el JPEG incrustado y te lo indica."
     },
     {
      "t": "JPEG, HEIC y más, con las mismas herramientas",
@@ -1586,7 +1586,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Luz y color",
-     "d": "Exposición, contraste, iluminaciones, sombras, blancos, negros, textura, claridad, neblina, intensidad y saturación, con tono automático (⌘U) y aviso de recorte (J)."
+     "d": "Exposición, contraste, iluminaciones, sombras, blancos, negros, textura, claridad, neblina, intensidad y saturación, con tono automático (⌘U · Ctrl+U) y aviso de recorte (J)."
     },
     {
      "t": "Balance de blancos",
@@ -1619,7 +1619,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "Todas las funciones de IA se ejecutan en tu Mac. Tus fotos nunca se suben.",
+   "lead": "Todas las funciones de IA se ejecutan en tu ordenador. Tus fotos nunca se suben.",
    "items": [
     {
      "t": "Selección con IA",
@@ -1664,7 +1664,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Segunda pantalla",
-     "d": "Muestra la foto actual en grande, o toda la carpeta en cuadrícula, en otro monitor (⌘F11), para clientes o el equipo en el set."
+     "d": "Muestra la foto actual en grande, o toda la carpeta en cuadrícula, en otro monitor (⌘F11 · Ctrl+F11), para clientes o el equipo en el set."
     }
    ]
   },
@@ -1718,7 +1718,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Exportación por lotes",
-     "d": "Exporta a la vez todas las fotos seleccionadas (⇧⌘E)."
+     "d": "Exporta a la vez todas las fotos seleccionadas (⇧⌘E · Ctrl+Mayús+E)."
     }
    ]
   },
@@ -1731,10 +1731,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "Oscuro, crema o automático",
-     "d": "Un tema oscuro color tinta, un tema claro crema o el ajuste de macOS."
+     "d": "Un tema oscuro color tinta, un tema claro crema o el ajuste del sistema."
     },
     {
-     "t": "Automatización con AppleScript",
+     "t": "Automatización con AppleScript (Mac)",
      "d": "Unos 50 comandos para abrir carpetas, valorar, revelar, aplicar ajustes, exportar y combinar, todos con respuesta en JSON: ideal para scripts y agentes de IA. No hay comandos destructivos."
     },
     {
@@ -1750,7 +1750,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Abra as pastas onde elas estão",
-     "d": "Cartões SD, SSDs externos ou qualquer pasta do seu Mac. As mudanças feitas no Finder aparecem na hora."
+     "d": "Cartões SD, SSDs externos ou qualquer pasta do seu computador. No Mac, as mudanças feitas no Finder aparecem na hora."
     },
     {
      "t": "Edições em XMP ao lado de cada foto",
@@ -1762,7 +1762,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Miniaturas que viajam com o disco",
-     "d": "O cache de miniaturas fica numa pasta oculta no mesmo disco das fotos, então a segunda visita é instantânea, até em outro Mac. Escolha o tamanho ou o local nos Ajustes."
+     "d": "O cache de miniaturas fica numa pasta oculta no mesmo disco das fotos, então a segunda visita é instantânea, até em outro computador. Escolha o tamanho ou o local nos Ajustes."
     },
     {
      "t": "Prévias feitas com antecedência",
@@ -1791,7 +1791,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Todos os formatos RAW comuns",
-     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ e mais. Se o macOS ainda não lê uma câmera muito nova, o Butter Edit edita o JPEG incorporado e avisa você."
+     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ e mais. No Mac, se o macOS ainda não lê uma câmera muito nova, o Butter Edit edita o JPEG incorporado e avisa você."
     },
     {
      "t": "JPEG, HEIC e mais, com as mesmas ferramentas",
@@ -1804,7 +1804,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Luz e cor",
-     "d": "Exposição, contraste, realces, sombras, brancos, pretos, textura, claridade, remoção de névoa, vibração e saturação, com tom automático (⌘U) e aviso de recorte (J)."
+     "d": "Exposição, contraste, realces, sombras, brancos, pretos, textura, claridade, remoção de névoa, vibração e saturação, com tom automático (⌘U · Ctrl+U) e aviso de recorte (J)."
     },
     {
      "t": "Equilíbrio de branco",
@@ -1837,7 +1837,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "Todos os recursos de IA rodam no seu Mac. Suas fotos nunca são enviadas.",
+   "lead": "Todos os recursos de IA rodam no seu computador. Suas fotos nunca são enviadas.",
    "items": [
     {
      "t": "Seleção com IA",
@@ -1882,7 +1882,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Segunda tela",
-     "d": "Mostre a foto atual em tamanho grande, ou a pasta inteira em grade, em outro monitor (⌘F11) — para clientes ou a equipe no set."
+     "d": "Mostre a foto atual em tamanho grande, ou a pasta inteira em grade, em outro monitor (⌘F11 · Ctrl+F11) — para clientes ou a equipe no set."
     }
    ]
   },
@@ -1936,7 +1936,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Exportação em lote",
-     "d": "Exporte de uma vez todas as fotos selecionadas (⇧⌘E)."
+     "d": "Exporte de uma vez todas as fotos selecionadas (⇧⌘E · Ctrl+Shift+E)."
     }
    ]
   },
@@ -1949,10 +1949,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "Escuro, creme ou automático",
-     "d": "Um tema escuro cor de tinta, um tema claro creme ou o ajuste do macOS."
+     "d": "Um tema escuro cor de tinta, um tema claro creme ou o ajuste do sistema."
     },
     {
-     "t": "Automação com AppleScript",
+     "t": "Automação com AppleScript (Mac)",
      "d": "Cerca de 50 comandos para abrir pastas, classificar, revelar, aplicar predefinições, exportar e mesclar, todos respondendo em JSON — prático para scripts e agentes de IA. Não há comandos destrutivos."
     },
     {
@@ -1968,7 +1968,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Apri le cartelle dove si trovano",
-     "d": "Schede SD, SSD esterni, qualsiasi cartella del Mac. Le modifiche fatte nel Finder compaiono subito."
+     "d": "Schede SD, SSD esterni, qualsiasi cartella del computer. Su Mac, le modifiche fatte nel Finder compaiono subito."
     },
     {
      "t": "Modifiche in XMP accanto a ogni foto",
@@ -1980,7 +1980,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Miniature che viaggiano con il disco",
-     "d": "La cache delle miniature sta in una cartella nascosta sullo stesso disco delle foto: dalla seconda volta è istantanea, anche su un altro Mac. Dimensione e posizione si scelgono nelle Impostazioni."
+     "d": "La cache delle miniature sta in una cartella nascosta sullo stesso disco delle foto: dalla seconda volta è istantanea, anche su un altro computer. Dimensione e posizione si scelgono nelle Impostazioni."
     },
     {
      "t": "Anteprime preparate in anticipo",
@@ -2009,7 +2009,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Tutti i formati RAW più comuni",
-     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ e altri. Se macOS non legge ancora una fotocamera nuovissima, Butter Edit modifica il JPEG incorporato e te lo segnala."
+     "d": "CR3, CR2, NEF, ARW, RAF, RW2, ORF, DNG, 3FR, IIQ e altri. Su Mac, se macOS non legge ancora una fotocamera nuovissima, Butter Edit modifica il JPEG incorporato e te lo segnala."
     },
     {
      "t": "JPEG, HEIC e altro con gli stessi strumenti",
@@ -2022,7 +2022,7 @@ window.BE_DETAILS = {
    "items": [
     {
      "t": "Luce e colore",
-     "d": "Esposizione, contrasto, luci, ombre, bianchi, neri, texture, chiarezza, rimozione foschia, vividezza e saturazione, con tono automatico (⌘U) e avviso di clipping (J)."
+     "d": "Esposizione, contrasto, luci, ombre, bianchi, neri, texture, chiarezza, rimozione foschia, vividezza e saturazione, con tono automatico (⌘U · Ctrl+U) e avviso di clipping (J)."
     },
     {
      "t": "Bilanciamento del bianco",
@@ -2055,7 +2055,7 @@ window.BE_DETAILS = {
    ]
   },
   "ai": {
-   "lead": "Tutte le funzioni IA girano sul tuo Mac. Le tue foto non vengono mai caricate.",
+   "lead": "Tutte le funzioni IA girano sul tuo computer. Le tue foto non vengono mai caricate.",
    "items": [
     {
      "t": "Selezione IA",
@@ -2100,7 +2100,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Secondo schermo",
-     "d": "Mostra la foto corrente in grande, o tutta la cartella in griglia, su un altro monitor (⌘F11) — per i clienti o la troupe sul set."
+     "d": "Mostra la foto corrente in grande, o tutta la cartella in griglia, su un altro monitor (⌘F11 · Ctrl+F11) — per i clienti o la troupe sul set."
     }
    ]
   },
@@ -2154,7 +2154,7 @@ window.BE_DETAILS = {
     },
     {
      "t": "Esportazione in blocco",
-     "d": "Esporta tutte insieme le foto selezionate (⇧⌘E)."
+     "d": "Esporta tutte insieme le foto selezionate (⇧⌘E · Ctrl+Maiusc+E)."
     }
    ]
   },
@@ -2167,10 +2167,10 @@ window.BE_DETAILS = {
     },
     {
      "t": "Scuro, crema o automatico",
-     "d": "Un tema scuro color inchiostro, un tema chiaro crema o l’impostazione di macOS."
+     "d": "Un tema scuro color inchiostro, un tema chiaro crema o l’impostazione di sistema."
     },
     {
-     "t": "Automazione con AppleScript",
+     "t": "Automazione con AppleScript (Mac)",
      "d": "Circa 50 comandi per aprire cartelle, valutare, sviluppare, applicare preset, esportare e unire, tutti con risposta in JSON — comodi per script e agenti IA. Nessun comando distruttivo."
     },
     {

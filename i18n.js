@@ -37,13 +37,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "AI THAT RUNS ON YOUR MAC",
+    "t": "AI THAT RUNS ON YOUR COMPUTER",
     "i": [
-     "AI culling, automatic tags and face detection (Apple Vision)",
+     "AI culling, automatic tags and face detection",
      "AI removal — paint what you want gone and it is filled in to match the surroundings",
      "Heal and clone brushes",
      "Face and skin retouching, and blemish removal — remove one person's blemishes across many photos at once",
-     "Your photos never leave your Mac"
+     "Your photos never leave your computer"
     ]
    },
    {
@@ -72,11 +72,11 @@ window.BE_I18N = {
     "i": [
      "10 languages: 한국어, English, 日本語, 简体中文, 繁體中文, Deutsch, Français, Español, Português (Brasil), Русский",
      "Dark and light appearance, following your system setting",
-     "AppleScript automation"
+     "AppleScript automation (Mac)"
     ]
    }
   ],
-  "htmlTitle": "Butter Edit — Fast folder-based RAW editor for Mac",
+  "htmlTitle": "Butter Edit — Fast folder-based RAW editor for Mac and Windows",
   "navFeatures": "Features",
   "navPricing": "Pricing",
   "navSupport": "Support",
@@ -94,8 +94,8 @@ window.BE_I18N = {
   "f2d": "Profiles matched to more than 130 cameras. Exposure, tone curve, color grading — and fast enough to move through thousands of shots.",
   "f3t": "AI masks",
   "f3d": "Select the subject, sky, background or people in one click and adjust each mask on its own. Add, subtract and intersect to refine.",
-  "f4t": "AI removal, on your Mac",
-  "f4d": "Paint over what you want gone and it is filled in to match. All AI runs on-device — your photos never leave your Mac.",
+  "f4t": "AI removal, on your computer",
+  "f4d": "Paint over what you want gone and it is filled in to match. All AI runs on-device — your photos never leave your Mac or Windows PC.",
   "allHeading": "Everything inside",
   "priceHeading": "Pricing",
   "priceLead": "Not a subscription. Buy once, keep it.",
@@ -115,7 +115,7 @@ window.BE_I18N = {
   "supportHeading": "Support",
   "contactT": "Contact",
   "contactD": "Email us with any question or problem:",
-  "contactHint": "Please include your Mac model, macOS version, camera model and what happened.",
+  "contactHint": "Please include your computer (Mac model and macOS version, or Windows version), camera model and what happened.",
   "faqT": "FAQ",
   "q1": "Trial and purchase",
   "a1": "The app is free to download. Click “Start 30-Day Free Trial” to use every feature for 30 days. After the trial, viewing, culling and editing keep working; exporting needs the one-time unlock purchase. You are never charged automatically.",
@@ -124,7 +124,7 @@ window.BE_I18N = {
   "q3": "Where are my edits saved?",
   "a3": "Your original photos are never changed. Edits are saved in .xmp files next to the photos.",
   "q4": "A RAW file won’t open",
-  "a4": "Butter Edit opens RAW files from cameras that macOS supports. New cameras often work after a macOS update.",
+  "a4": "On Mac, Butter Edit opens RAW files from cameras that macOS supports; on Windows, from cameras its built-in RAW decoder (LibRaw) supports. New cameras often work after a macOS or app update.",
   "q5": "Tethered shooting",
   "a5": "Control a camera connected by USB and bring new photos straight into your folder. Allow camera access the first time you connect.",
   "footPrivacy": "Privacy Policy",
@@ -273,13 +273,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "AI는 모두 맥 안에서",
+    "t": "AI는 모두 내 컴퓨터 안에서",
     "i": [
-     "AI 선별과 자동 태그, 얼굴 찾기(Apple Vision)",
+     "AI 선별과 자동 태그, 얼굴 찾기",
      "AI 지우기 — 지우고 싶은 것을 칠하면 둘레에 맞게 메웁니다",
      "복구 · 복제 브러시",
      "얼굴 · 피부 보정과 잡티 지우기. 같은 사람의 잡티를 여러 장에서 한 번에 지울 수 있습니다",
-     "사진은 맥 밖으로 나가지 않습니다"
+     "사진은 내 컴퓨터 밖으로 나가지 않습니다"
     ]
    },
    {
@@ -308,7 +308,7 @@ window.BE_I18N = {
     "i": [
      "10개 언어: 한국어 · English · 日本語 · 简体中文 · 繁體中文 · Deutsch · Français · Español · Português(Brasil) · Русский",
      "어두운 화면과 밝은 화면, 시스템 설정 따라가기",
-     "AppleScript 자동 조작"
+     "AppleScript 자동 조작(맥)"
     ]
    }
   ],
@@ -330,8 +330,8 @@ window.BE_I18N = {
   "f2d": "130기종 넘는 카메라에 맞춘 프로필로 RAW를 엽니다. 노출 · 톤 곡선 · 컬러 그레이딩까지, 수천 장도 빠르게 넘기며 보정합니다.",
   "f3t": "AI 마스크",
   "f3d": "피사체 · 하늘 · 배경 · 사람을 클릭 한 번으로 고르고, 마스크마다 따로 보정합니다. 더하고 · 빼고 · 겹쳐 다듬습니다.",
-  "f4t": "AI 지우기도 맥 안에서",
-  "f4d": "지우고 싶은 것을 칠하면 둘레에 맞게 메웁니다. AI는 모두 맥 안에서 돌고, 사진은 맥 밖으로 나가지 않습니다.",
+  "f4t": "AI 지우기도 내 컴퓨터 안에서",
+  "f4d": "지우고 싶은 것을 칠하면 둘레에 맞게 메웁니다. AI는 모두 내 컴퓨터 안에서 돌고, 사진은 맥 · 윈도우 PC 밖으로 나가지 않습니다.",
   "allHeading": "모든 기능",
   "priceHeading": "가격",
   "priceLead": "구독이 아닙니다. 한 번 사면 계속 씁니다.",
@@ -351,7 +351,7 @@ window.BE_I18N = {
   "supportHeading": "지원",
   "contactT": "문의",
   "contactD": "질문이나 문제는 이메일로 보내 주세요:",
-  "contactHint": "맥 기종, macOS 버전, 카메라 기종과 어떤 일이 있었는지 적어 주시면 빨리 도와드릴 수 있습니다.",
+  "contactHint": "쓰시는 컴퓨터(맥 기종과 macOS 버전, 또는 윈도우 버전), 카메라 기종과 어떤 일이 있었는지 적어 주시면 빨리 도와드릴 수 있습니다.",
   "faqT": "자주 묻는 것",
   "q1": "체험과 구입",
   "a1": "앱은 무료로 받습니다. “30일 무료 체험 시작”을 클릭하면 30일 동안 모든 기능을 쓸 수 있습니다. 체험이 끝나면 보기 · 고르기 · 보정은 계속 되고, 내보내기에는 한 번 구입하는 잠금 해제가 필요합니다. 체험이 끝나도 저절로 결제되지 않습니다.",
@@ -360,7 +360,7 @@ window.BE_I18N = {
   "q3": "보정한 내용은 어디에 저장되나요",
   "a3": "원본 사진은 바뀌지 않습니다. 보정값은 사진 옆의 .xmp 파일에 저장됩니다.",
   "q4": "RAW 파일이 열리지 않아요",
-  "a4": "macOS가 지원하는 카메라의 RAW를 엽니다. 새 카메라는 macOS 업데이트 뒤에 열리는 경우가 많습니다.",
+  "a4": "맥에서는 macOS가 지원하는 카메라, 윈도우에서는 앱에 든 RAW 해석기(LibRaw)가 지원하는 카메라의 RAW를 엽니다. 새 카메라는 macOS나 앱 업데이트 뒤에 열리는 경우가 많습니다.",
   "q5": "테더 촬영",
   "a5": "USB로 연결한 카메라를 앱에서 조작하고, 찍은 사진을 고른 폴더로 바로 받습니다. 처음 연결할 때 카메라 접근을 허락해 주세요.",
   "footPrivacy": "개인정보 처리방침",
@@ -509,13 +509,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "Macで動くAI",
+    "t": "パソコンの中で動くAI",
     "i": [
-     "AIによる選別、自動タグ、顔の検出(Apple Vision)",
+     "AIによる選別、自動タグ、顔の検出",
      "AI削除 — 消したいところをなぞると、周りに合わせて自然に埋めます",
      "修復ブラシとコピースタンプ",
      "顔と肌のレタッチ、シミの除去 — 同じ人のシミを何枚もの写真でまとめて除去",
-     "写真がMacの外に出ることはありません"
+     "写真がパソコンの外に出ることはありません"
     ]
    },
    {
@@ -544,7 +544,7 @@ window.BE_I18N = {
     "i": [
      "10言語:한국어、English、日本語、简体中文、繁體中文、Deutsch、Français、Español、Português (Brasil)、Русский",
      "システム設定に合わせたダークモードとライトモード",
-     "AppleScriptによる自動化"
+     "AppleScriptによる自動化（Mac）"
     ]
    }
   ],
@@ -566,8 +566,8 @@ window.BE_I18N = {
   "f2d": "130機種以上のカメラに合わせたプロファイルでRAWを開きます。露光量、トーンカーブ、カラーグレーディングまで。何千枚でもすばやく。",
   "f3t": "AIマスク",
   "f3d": "被写体・空・背景・人物をワンクリックで選択し、マスクごとに補正。追加・除外・交差で仕上げます。",
-  "f4t": "AI消去もMacの中で",
-  "f4d": "消したいものを塗るだけで、周囲に合わせて埋めます。AIはすべてMac上で動き、写真がMacの外に出ることはありません。",
+  "f4t": "AI消去もパソコンの中で",
+  "f4d": "消したいものを塗るだけで、周囲に合わせて埋めます。AIはすべてパソコン上で動き、写真がMacやWindows PCの外に出ることはありません。",
   "allHeading": "すべての機能",
   "priceHeading": "価格",
   "priceLead": "サブスクリプションではありません。一度買えばずっと使えます。",
@@ -587,7 +587,7 @@ window.BE_I18N = {
   "supportHeading": "サポート",
   "contactT": "お問い合わせ",
   "contactD": "ご質問や問題はメールでお送りください:",
-  "contactHint": "Macの機種、macOSのバージョン、カメラの機種、起きたことを書いていただくと早くお手伝いできます。",
+  "contactHint": "お使いのパソコン（Macの機種とmacOSのバージョン、またはWindowsのバージョン）、カメラの機種、起きたことを書いていただくと早くお手伝いできます。",
   "faqT": "よくある質問",
   "q1": "体験と購入",
   "a1": "アプリは無料でダウンロードできます。「30日間の無料体験を開始」をクリックすると、30日間すべての機能を使えます。体験後も閲覧・選別・編集は続けて使え、書き出しには一度だけの購入が必要です。自動で課金されることはありません。",
@@ -596,7 +596,7 @@ window.BE_I18N = {
   "q3": "編集内容はどこに保存されますか",
   "a3": "元の写真は変更されません。編集内容は写真の隣の.xmpファイルに保存されます。",
   "q4": "RAWファイルが開けません",
-  "a4": "macOSが対応しているカメラのRAWを開きます。新しいカメラはmacOSのアップデート後に開けるようになることが多いです。",
+  "a4": "MacではmacOSが対応しているカメラ、Windowsではアプリ内蔵のRAWデコーダー（LibRaw）が対応しているカメラのRAWを開きます。新しいカメラはmacOSやアプリのアップデート後に開けるようになることが多いです。",
   "q5": "テザー撮影",
   "a5": "USBで接続したカメラをアプリから操作し、撮った写真を選んだフォルダに直接取り込みます。初めて接続するときはカメラへのアクセスを許可してください。",
   "footPrivacy": "プライバシーポリシー",
@@ -745,13 +745,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "在你的 Mac 上运行的 AI",
+    "t": "在你的电脑上运行的 AI",
     "i": [
-     "AI 筛选、自动标签和人脸检测（Apple Vision）",
+     "AI 筛选、自动标签和人脸检测",
      "AI 移除——涂抹想去掉的部分，会按周围环境自然填补",
      "修复画笔和仿制画笔",
      "面部和皮肤修饰、去除瑕疵——可一次性去除同一个人在多张照片中的瑕疵",
-     "照片绝不离开你的 Mac"
+     "照片绝不离开你的电脑"
     ]
    },
    {
@@ -780,7 +780,7 @@ window.BE_I18N = {
     "i": [
      "10 种语言：한국어、English、日本語、简体中文、繁體中文、Deutsch、Français、Español、Português (Brasil)、Русский",
      "深色和浅色外观，跟随系统设置",
-     "AppleScript 自动化"
+     "AppleScript 自动化（Mac）"
     ]
    }
   ],
@@ -802,8 +802,8 @@ window.BE_I18N = {
   "f2d": "针对 130 多款相机匹配的配置文件。曝光、色调曲线、颜色分级——成千上万张照片也能快速处理。",
   "f3t": "AI 蒙版",
   "f3d": "一键选择主体、天空、背景或人物，并分别调整每个蒙版。通过添加、减去和交叉来精修。",
-  "f4t": "AI 移除，就在你的 Mac 上",
-  "f4d": "涂抹想去掉的部分，它会按周围环境自动填充。所有 AI 都在本机运行，照片绝不会离开你的 Mac。",
+  "f4t": "AI 移除，就在你的电脑上",
+  "f4d": "涂抹想去掉的部分，它会按周围环境自动填充。所有 AI 都在本机运行，照片绝不会离开你的 Mac 或 Windows 电脑。",
   "allHeading": "全部功能",
   "priceHeading": "价格",
   "priceLead": "不是订阅。买一次，一直用。",
@@ -823,7 +823,7 @@ window.BE_I18N = {
   "supportHeading": "支持",
   "contactT": "联系我们",
   "contactD": "如有任何问题，请发送电子邮件:",
-  "contactHint": "请写明你的 Mac 型号、macOS 版本、相机型号以及发生了什么。",
+  "contactHint": "请写明你的电脑（Mac 型号和 macOS 版本，或 Windows 版本）、相机型号以及发生了什么。",
   "faqT": "常见问题",
   "q1": "试用与购买",
   "a1": "App 可免费下载。点按“开始 30 天免费试用”，即可在 30 天内使用全部功能。试用结束后，浏览、筛选和编辑仍可继续使用；导出需要一次性解锁购买。不会自动扣费。",
@@ -832,7 +832,7 @@ window.BE_I18N = {
   "q3": "我的编辑保存在哪里？",
   "a3": "原始照片不会被更改。编辑保存在照片旁的 .xmp 文件中。",
   "q4": "RAW 文件打不开",
-  "a4": "Butter Edit 可打开 macOS 支持的相机的 RAW 文件。新相机通常在 macOS 更新后即可打开。",
+  "a4": "在 Mac 上，Butter Edit 可打开 macOS 支持的相机的 RAW 文件；在 Windows 上，可打开应用内置 RAW 解码器（LibRaw）支持的相机的 RAW 文件。新相机通常在 macOS 或应用更新后即可打开。",
   "q5": "联机拍摄",
   "a5": "在 App 中控制通过 USB 连接的相机，并把新拍的照片直接存入你的文件夹。首次连接时请允许访问相机。",
   "footPrivacy": "隐私政策",
@@ -981,13 +981,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "在你的 Mac 上執行的 AI",
+    "t": "在你的電腦上執行的 AI",
     "i": [
-     "AI 挑選、自動標籤與人臉偵測（Apple Vision）",
+     "AI 挑選、自動標籤與人臉偵測",
      "AI 移除——塗抹想去掉的地方，會依周圍自然補上",
      "修復筆刷與仿製筆刷",
      "臉部與皮膚修飾、去除瑕疵——可一次去除同一個人在多張照片中的瑕疵",
-     "照片絕不離開你的 Mac"
+     "照片絕不離開你的電腦"
     ]
    },
    {
@@ -1016,7 +1016,7 @@ window.BE_I18N = {
     "i": [
      "10 種語言：한국어、English、日本語、简体中文、繁體中文、Deutsch、Français、Español、Português (Brasil)、Русский",
      "深色與淺色外觀，跟隨系統設定",
-     "AppleScript 自動化"
+     "AppleScript 自動化（Mac）"
     ]
    }
   ],
@@ -1038,8 +1038,8 @@ window.BE_I18N = {
   "f2d": "針對 130 多款相機調校的描述檔。曝光、色調曲線、色彩分級——成千上萬張照片也能快速處理。",
   "f3t": "AI 遮色片",
   "f3d": "按一下即可選取主體、天空、背景或人物，並分別調整每個遮色片。透過增加、減去與交集來精修。",
-  "f4t": "AI 移除，就在你的 Mac 上",
-  "f4d": "塗抹想去掉的部分，它會依周圍自動填補。所有 AI 都在本機執行，照片絕不會離開你的 Mac。",
+  "f4t": "AI 移除，就在你的電腦上",
+  "f4d": "塗抹想去掉的部分，它會依周圍自動填補。所有 AI 都在本機執行，照片絕不會離開你的 Mac 或 Windows 電腦。",
   "allHeading": "所有功能",
   "priceHeading": "價格",
   "priceLead": "不是訂閱。買一次，一直用。",
@@ -1059,7 +1059,7 @@ window.BE_I18N = {
   "supportHeading": "支援",
   "contactT": "聯絡我們",
   "contactD": "如有任何問題，請寄電子郵件給我們:",
-  "contactHint": "請寫明你的 Mac 機型、macOS 版本、相機機型以及發生了什麼事。",
+  "contactHint": "請寫明你的電腦（Mac 機型與 macOS 版本，或 Windows 版本）、相機機型以及發生了什麼事。",
   "faqT": "常見問題",
   "q1": "試用與購買",
   "a1": "App 可免費下載。按一下「開始 30 天免費試用」，即可在 30 天內使用所有功能。試用結束後，瀏覽、挑選與編輯仍可繼續；輸出則需要一次性的解鎖購買。不會自動收費。",
@@ -1068,7 +1068,7 @@ window.BE_I18N = {
   "q3": "我的編輯儲存在哪裡？",
   "a3": "原始照片不會被更改。編輯儲存在照片旁的 .xmp 檔案中。",
   "q4": "RAW 檔案打不開",
-  "a4": "Butter Edit 可開啟 macOS 支援之相機的 RAW 檔案。新相機通常在 macOS 更新後即可開啟。",
+  "a4": "在 Mac 上，Butter Edit 可開啟 macOS 支援之相機的 RAW 檔案；在 Windows 上，可開啟 App 內建 RAW 解碼器（LibRaw）支援之相機的 RAW 檔案。新相機通常在 macOS 或 App 更新後即可開啟。",
   "q5": "連線拍攝",
   "a5": "在 App 中控制以 USB 連接的相機，並把新拍的照片直接存進你的資料夾。第一次連接時請允許取用相機。",
   "footPrivacy": "隱私權政策",
@@ -1217,13 +1217,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "KI DIREKT AUF DEINEM MAC",
+    "t": "KI DIREKT AUF DEINEM COMPUTER",
     "i": [
-     "KI-Auswahl, automatische Tags und Gesichtserkennung (Apple Vision)",
+     "KI-Auswahl, automatische Tags und Gesichtserkennung",
      "KI-Entfernen – male über das, was weg soll, und es wird passend zur Umgebung aufgefüllt",
      "Reparatur- und Kopierstempel-Pinsel",
      "Gesichts- und Hautretusche sowie Entfernen von Hautunreinheiten – bei einer Person über viele Fotos auf einmal",
-     "Deine Fotos verlassen nie deinen Mac"
+     "Deine Fotos verlassen nie deinen Computer"
     ]
    },
    {
@@ -1252,11 +1252,11 @@ window.BE_I18N = {
     "i": [
      "10 Sprachen: 한국어, English, 日本語, 简体中文, 繁體中文, Deutsch, Français, Español, Português (Brasil), Русский",
      "Dunkles und helles Erscheinungsbild, passend zur Systemeinstellung",
-     "Automatisierung mit AppleScript"
+     "Automatisierung mit AppleScript (Mac)"
     ]
    }
   ],
-  "htmlTitle": "Butter Edit — Schneller ordnerbasierter RAW-Editor für den Mac",
+  "htmlTitle": "Butter Edit — Schneller ordnerbasierter RAW-Editor für Mac und Windows",
   "navFeatures": "Funktionen",
   "navPricing": "Preis",
   "navSupport": "Support",
@@ -1274,8 +1274,8 @@ window.BE_I18N = {
   "f2d": "Profile für mehr als 130 Kameras. Belichtung, Gradationskurve, Color Grading – und schnell genug für Tausende Aufnahmen.",
   "f3t": "KI-Masken",
   "f3d": "Motiv, Himmel, Hintergrund oder Personen mit einem Klick auswählen und jede Maske einzeln anpassen. Hinzufügen, abziehen und überschneiden zum Verfeinern.",
-  "f4t": "KI-Entfernen, direkt auf deinem Mac",
-  "f4d": "Male über das, was weg soll, und es wird passend aufgefüllt. Die gesamte KI läuft auf dem Gerät – deine Fotos verlassen nie deinen Mac.",
+  "f4t": "KI-Entfernen, direkt auf deinem Computer",
+  "f4d": "Male über das, was weg soll, und es wird passend aufgefüllt. Die gesamte KI läuft auf dem Gerät – deine Fotos verlassen nie deinen Mac oder Windows-PC.",
   "allHeading": "Alles, was drin ist",
   "priceHeading": "Preis",
   "priceLead": "Kein Abo. Einmal kaufen, für immer nutzen.",
@@ -1295,7 +1295,7 @@ window.BE_I18N = {
   "supportHeading": "Support",
   "contactT": "Kontakt",
   "contactD": "Schreib uns bei Fragen oder Problemen eine E-Mail:",
-  "contactHint": "Bitte gib dein Mac-Modell, die macOS-Version, das Kameramodell und den Ablauf an.",
+  "contactHint": "Bitte gib deinen Computer (Mac-Modell und macOS-Version oder Windows-Version), das Kameramodell und den Ablauf an.",
   "faqT": "Häufige Fragen",
   "q1": "Test und Kauf",
   "a1": "Die App ist kostenlos. Klicke auf „30 Tage kostenlos testen“, um 30 Tage lang alle Funktionen zu nutzen. Danach funktionieren Ansehen, Aussortieren und Bearbeiten weiter; für den Export ist ein einmaliger Kauf nötig. Es wird nie automatisch etwas berechnet.",
@@ -1304,7 +1304,7 @@ window.BE_I18N = {
   "q3": "Wo werden meine Bearbeitungen gespeichert?",
   "a3": "Deine Originalfotos werden nie verändert. Bearbeitungen werden in .xmp-Dateien neben den Fotos gespeichert.",
   "q4": "Eine RAW-Datei lässt sich nicht öffnen",
-  "a4": "Butter Edit öffnet RAW-Dateien von Kameras, die macOS unterstützt. Neue Kameras funktionieren oft nach einem macOS-Update.",
+  "a4": "Auf dem Mac öffnet Butter Edit RAW-Dateien von Kameras, die macOS unterstützt, unter Windows von Kameras, die der eingebaute RAW-Decoder (LibRaw) unterstützt. Neue Kameras funktionieren oft nach einem macOS- oder App-Update.",
   "q5": "Tethered Shooting",
   "a5": "Steuere eine per USB verbundene Kamera aus der App und hole neue Fotos direkt in deinen Ordner. Erlaube beim ersten Verbinden den Kamerazugriff.",
   "footPrivacy": "Datenschutzerklärung",
@@ -1453,13 +1453,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "UNE IA QUI TOURNE SUR VOTRE MAC",
+    "t": "UNE IA QUI TOURNE SUR VOTRE ORDINATEUR",
     "i": [
-     "Tri par IA, mots-clés automatiques et détection des visages (Apple Vision)",
+     "Tri par IA, mots-clés automatiques et détection des visages",
      "Suppression par IA : peignez ce que vous voulez effacer, la zone est complétée pour s’accorder avec le reste",
      "Pinceaux correcteur et tampon",
      "Retouche du visage et de la peau, suppression des imperfections, sur une même personne dans de nombreuses photos à la fois",
-     "Vos photos ne quittent jamais votre Mac"
+     "Vos photos ne quittent jamais votre ordinateur"
     ]
    },
    {
@@ -1488,11 +1488,11 @@ window.BE_I18N = {
     "i": [
      "10 langues : 한국어, English, 日本語, 简体中文, 繁體中文, Deutsch, Français, Español, Português (Brasil), Русский",
      "Apparence sombre et claire, selon le réglage du système",
-     "Automatisation AppleScript"
+     "Automatisation AppleScript (Mac)"
     ]
    }
   ],
-  "htmlTitle": "Butter Edit — Éditeur RAW rapide basé sur vos dossiers, pour Mac",
+  "htmlTitle": "Butter Edit — Éditeur RAW rapide basé sur vos dossiers, pour Mac et Windows",
   "navFeatures": "Fonctions",
   "navPricing": "Prix",
   "navSupport": "Assistance",
@@ -1510,8 +1510,8 @@ window.BE_I18N = {
   "f2d": "Des profils ajustés pour plus de 130 appareils. Exposition, courbe des tonalités, étalonnage des couleurs — et assez rapide pour des milliers de photos.",
   "f3t": "Masques IA",
   "f3d": "Sélectionnez le sujet, le ciel, l’arrière-plan ou les personnes en un clic, puis réglez chaque masque séparément. Ajoutez, soustrayez et croisez pour affiner.",
-  "f4t": "Suppression IA, sur votre Mac",
-  "f4d": "Peignez ce que vous voulez effacer, et la zone est remplie pour se fondre dans le décor. Toute l’IA tourne sur l’appareil — vos photos ne quittent jamais votre Mac.",
+  "f4t": "Suppression IA, sur votre ordinateur",
+  "f4d": "Peignez ce que vous voulez effacer, et la zone est remplie pour se fondre dans le décor. Toute l’IA tourne sur l’appareil — vos photos ne quittent jamais votre Mac ou PC Windows.",
   "allHeading": "Tout ce qu’il contient",
   "priceHeading": "Prix",
   "priceLead": "Pas d’abonnement. Un achat, pour toujours.",
@@ -1531,7 +1531,7 @@ window.BE_I18N = {
   "supportHeading": "Assistance",
   "contactT": "Contact",
   "contactD": "Écrivez-nous pour toute question ou tout problème :",
-  "contactHint": "Indiquez votre modèle de Mac, la version de macOS, le modèle d’appareil photo et ce qui s’est passé.",
+  "contactHint": "Indiquez votre ordinateur (modèle de Mac et version de macOS, ou version de Windows), le modèle d’appareil photo et ce qui s’est passé.",
   "faqT": "Questions fréquentes",
   "q1": "Essai et achat",
   "a1": "L’app est gratuite. Cliquez sur « Commencer l’essai gratuit de 30 jours » pour utiliser toutes les fonctions pendant 30 jours. Après l’essai, la consultation, le tri et la retouche continuent de fonctionner ; l’exportation nécessite l’achat unique de déverrouillage. Vous n’êtes jamais débité automatiquement.",
@@ -1540,7 +1540,7 @@ window.BE_I18N = {
   "q3": "Où sont enregistrées mes retouches ?",
   "a3": "Vos photos originales ne sont jamais modifiées. Les retouches sont enregistrées dans des fichiers .xmp à côté des photos.",
   "q4": "Un fichier RAW ne s’ouvre pas",
-  "a4": "Butter Edit ouvre les fichiers RAW des appareils pris en charge par macOS. Les nouveaux appareils fonctionnent souvent après une mise à jour de macOS.",
+  "a4": "Sur Mac, Butter Edit ouvre les fichiers RAW des appareils pris en charge par macOS ; sous Windows, ceux pris en charge par son décodeur RAW intégré (LibRaw). Les nouveaux appareils fonctionnent souvent après une mise à jour de macOS ou de l’app.",
   "q5": "Prise de vue en mode connecté",
   "a5": "Pilotez un appareil photo branché en USB depuis l’app et recevez les nouvelles photos directement dans votre dossier. Autorisez l’accès à l’appareil photo lors de la première connexion.",
   "footPrivacy": "Politique de confidentialité",
@@ -1689,13 +1689,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "IA QUE FUNCIONA EN TU MAC",
+    "t": "IA QUE FUNCIONA EN TU ORDENADOR",
     "i": [
-     "Selección con IA, etiquetas automáticas y detección de caras (Apple Vision)",
+     "Selección con IA, etiquetas automáticas y detección de caras",
      "Eliminar con IA: pinta lo que quieras quitar y se rellena a juego con el entorno",
      "Pinceles de corrección y de clonar",
      "Retoque de cara y piel, y eliminación de imperfecciones: quita las de una misma persona en muchas fotos a la vez",
-     "Tus fotos nunca salen de tu Mac"
+     "Tus fotos nunca salen de tu ordenador"
     ]
    },
    {
@@ -1724,11 +1724,11 @@ window.BE_I18N = {
     "i": [
      "10 idiomas: 한국어, English, 日本語, 简体中文, 繁體中文, Deutsch, Français, Español, Português (Brasil), Русский",
      "Aspecto oscuro y claro, según el ajuste del sistema",
-     "Automatización con AppleScript"
+     "Automatización con AppleScript (Mac)"
     ]
    }
   ],
-  "htmlTitle": "Butter Edit — Editor RAW rápido basado en carpetas para Mac",
+  "htmlTitle": "Butter Edit — Editor RAW rápido basado en carpetas para Mac y Windows",
   "navFeatures": "Funciones",
   "navPricing": "Precio",
   "navSupport": "Soporte",
@@ -1746,8 +1746,8 @@ window.BE_I18N = {
   "f2d": "Perfiles ajustados para más de 130 cámaras. Exposición, curva de tonos, gradación de color, y lo bastante rápido para miles de fotos.",
   "f3t": "Máscaras con IA",
   "f3d": "Selecciona el sujeto, el cielo, el fondo o las personas con un clic y ajusta cada máscara por separado. Suma, resta e interseca para afinar.",
-  "f4t": "Borrado con IA, en tu Mac",
-  "f4d": "Pinta lo que quieras quitar y se rellena para encajar con el entorno. Toda la IA funciona en el dispositivo: tus fotos nunca salen de tu Mac.",
+  "f4t": "Borrado con IA, en tu ordenador",
+  "f4d": "Pinta lo que quieras quitar y se rellena para encajar con el entorno. Toda la IA funciona en el dispositivo: tus fotos nunca salen de tu Mac o PC con Windows.",
   "allHeading": "Todo lo que incluye",
   "priceHeading": "Precio",
   "priceLead": "Sin suscripción. Compra una vez y es tuyo.",
@@ -1767,7 +1767,7 @@ window.BE_I18N = {
   "supportHeading": "Soporte",
   "contactT": "Contacto",
   "contactD": "Escríbenos con cualquier pregunta o problema:",
-  "contactHint": "Indica el modelo de tu Mac, la versión de macOS, el modelo de cámara y qué ocurrió.",
+  "contactHint": "Indica tu ordenador (modelo de Mac y versión de macOS, o versión de Windows), el modelo de cámara y qué ocurrió.",
   "faqT": "Preguntas frecuentes",
   "q1": "Prueba y compra",
   "a1": "La app se descarga gratis. Haz clic en «Iniciar prueba gratuita de 30 días» para usar todas las funciones durante 30 días. Después, ver, seleccionar y editar siguen funcionando; para exportar hace falta la compra única de desbloqueo. Nunca se te cobra automáticamente.",
@@ -1776,7 +1776,7 @@ window.BE_I18N = {
   "q3": "¿Dónde se guardan mis ediciones?",
   "a3": "Tus fotos originales nunca se modifican. Las ediciones se guardan en archivos .xmp junto a las fotos.",
   "q4": "Un archivo RAW no se abre",
-  "a4": "Butter Edit abre archivos RAW de cámaras compatibles con macOS. Las cámaras nuevas suelen funcionar tras una actualización de macOS.",
+  "a4": "En Mac, Butter Edit abre archivos RAW de cámaras compatibles con macOS; en Windows, de cámaras compatibles con su decodificador RAW integrado (LibRaw). Las cámaras nuevas suelen funcionar tras una actualización de macOS o de la app.",
   "q5": "Captura conectada",
   "a5": "Controla desde la app una cámara conectada por USB y recibe las fotos nuevas directamente en tu carpeta. Permite el acceso a la cámara la primera vez que la conectes.",
   "footPrivacy": "Política de privacidad",
@@ -1925,13 +1925,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "IA QUE RODA NO SEU MAC",
+    "t": "IA QUE RODA NO SEU COMPUTADOR",
     "i": [
-     "Seleção com IA, etiquetas automáticas e detecção de rostos (Apple Vision)",
+     "Seleção com IA, etiquetas automáticas e detecção de rostos",
      "Remoção com IA: pinte o que você quer tirar e a área é preenchida combinando com o entorno",
      "Pincéis de recuperação e de clonagem",
      "Retoque de rosto e pele e remoção de manchas, de uma mesma pessoa em várias fotos de uma vez",
-     "Suas fotos nunca saem do seu Mac"
+     "Suas fotos nunca saem do seu computador"
     ]
    },
    {
@@ -1960,11 +1960,11 @@ window.BE_I18N = {
     "i": [
      "10 idiomas: 한국어, English, 日本語, 简体中文, 繁體中文, Deutsch, Français, Español, Português (Brasil), Русский",
      "Aparência escura e clara, conforme o ajuste do sistema",
-     "Automação com AppleScript"
+     "Automação com AppleScript (Mac)"
     ]
    }
   ],
-  "htmlTitle": "Butter Edit — Editor RAW rápido baseado em pastas para Mac",
+  "htmlTitle": "Butter Edit — Editor RAW rápido baseado em pastas para Mac e Windows",
   "navFeatures": "Recursos",
   "navPricing": "Preço",
   "navSupport": "Suporte",
@@ -1982,8 +1982,8 @@ window.BE_I18N = {
   "f2d": "Perfis ajustados para mais de 130 câmeras. Exposição, curva de tons, gradação de cores — e rápido o bastante para milhares de fotos.",
   "f3t": "Máscaras com IA",
   "f3d": "Selecione o assunto, o céu, o fundo ou as pessoas com um clique e ajuste cada máscara separadamente. Some, subtraia e faça interseções para refinar.",
-  "f4t": "Remoção com IA, no seu Mac",
-  "f4d": "Pinte o que quer tirar e a área é preenchida para combinar com o entorno. Toda a IA roda no dispositivo — suas fotos nunca saem do seu Mac.",
+  "f4t": "Remoção com IA, no seu computador",
+  "f4d": "Pinte o que quer tirar e a área é preenchida para combinar com o entorno. Toda a IA roda no dispositivo — suas fotos nunca saem do seu Mac ou PC com Windows.",
   "allHeading": "Tudo o que vem nele",
   "priceHeading": "Preço",
   "priceLead": "Não é assinatura. Compre uma vez e use sempre.",
@@ -2003,7 +2003,7 @@ window.BE_I18N = {
   "supportHeading": "Suporte",
   "contactT": "Contato",
   "contactD": "Envie um e-mail com qualquer dúvida ou problema:",
-  "contactHint": "Informe o modelo do seu Mac, a versão do macOS, o modelo da câmera e o que aconteceu.",
+  "contactHint": "Informe seu computador (modelo do Mac e versão do macOS, ou versão do Windows), o modelo da câmera e o que aconteceu.",
   "faqT": "Perguntas frequentes",
   "q1": "Teste e compra",
   "a1": "O app é gratuito. Clique em “Iniciar teste gratuito de 30 dias” para usar todos os recursos por 30 dias. Depois do teste, ver, selecionar e editar continuam funcionando; exportar exige a compra única de desbloqueio. Você nunca é cobrado automaticamente.",
@@ -2012,7 +2012,7 @@ window.BE_I18N = {
   "q3": "Onde minhas edições são salvas?",
   "a3": "Suas fotos originais nunca são alteradas. As edições são salvas em arquivos .xmp ao lado das fotos.",
   "q4": "Um arquivo RAW não abre",
-  "a4": "O Butter Edit abre arquivos RAW de câmeras compatíveis com o macOS. Câmeras novas costumam funcionar após uma atualização do macOS.",
+  "a4": "No Mac, o Butter Edit abre arquivos RAW de câmeras compatíveis com o macOS; no Windows, de câmeras compatíveis com seu decodificador RAW integrado (LibRaw). Câmeras novas costumam funcionar após uma atualização do macOS ou do app.",
   "q5": "Captura conectada",
   "a5": "Controle pelo app uma câmera conectada por USB e receba as novas fotos direto na sua pasta. Permita o acesso à câmera na primeira conexão.",
   "footPrivacy": "Política de privacidade",
@@ -2161,13 +2161,13 @@ window.BE_I18N = {
     ]
    },
    {
-    "t": "IA CHE FUNZIONA SUL TUO MAC",
+    "t": "IA CHE FUNZIONA SUL TUO COMPUTER",
     "i": [
-     "Selezione con IA, tag automatici e rilevamento dei volti (Apple Vision)",
+     "Selezione con IA, tag automatici e rilevamento dei volti",
      "Rimozione con IA: dipingi ciò che vuoi togliere e l’area viene riempita in armonia con il resto",
      "Pennelli correttivo e clone",
      "Ritocco di viso e pelle e rimozione delle imperfezioni, per la stessa persona su molte foto insieme",
-     "Le tue foto non lasciano mai il Mac"
+     "Le tue foto non lasciano mai il computer"
     ]
    },
    {
@@ -2196,11 +2196,11 @@ window.BE_I18N = {
     "i": [
      "10 lingue (l’italiano non è tra queste): 한국어, English, 日本語, 简体中文, 繁體中文, Deutsch, Français, Español, Português (Brasil), Русский",
      "Aspetto scuro e chiaro, secondo le impostazioni di sistema",
-     "Automazione con AppleScript"
+     "Automazione con AppleScript (Mac)"
     ]
    }
   ],
-  "htmlTitle": "Butter Edit — Editor RAW veloce basato sulle cartelle, per Mac",
+  "htmlTitle": "Butter Edit — Editor RAW veloce basato sulle cartelle, per Mac e Windows",
   "navFeatures": "Funzioni",
   "navPricing": "Prezzo",
   "navSupport": "Assistenza",
@@ -2218,8 +2218,8 @@ window.BE_I18N = {
   "f2d": "Profili calibrati per oltre 130 fotocamere. Esposizione, curva tonale, color grading — e abbastanza veloce per migliaia di scatti.",
   "f3t": "Maschere IA",
   "f3d": "Seleziona soggetto, cielo, sfondo o persone con un clic e regola ogni maschera separatamente. Aggiungi, sottrai e interseca per rifinire.",
-  "f4t": "Rimozione IA, sul tuo Mac",
-  "f4d": "Dipingi ciò che vuoi togliere e l’area viene riempita in armonia con il contesto. Tutta l’IA funziona sul dispositivo: le tue foto non lasciano mai il Mac.",
+  "f4t": "Rimozione IA, sul tuo computer",
+  "f4d": "Dipingi ciò che vuoi togliere e l’area viene riempita in armonia con il contesto. Tutta l’IA funziona sul dispositivo: le tue foto non lasciano mai il Mac o il PC Windows.",
   "allHeading": "Tutto ciò che contiene",
   "priceHeading": "Prezzo",
   "priceLead": "Nessun abbonamento. Lo compri una volta, è tuo.",
@@ -2239,7 +2239,7 @@ window.BE_I18N = {
   "supportHeading": "Assistenza",
   "contactT": "Contatti",
   "contactD": "Scrivici per qualsiasi domanda o problema:",
-  "contactHint": "Indica il modello del tuo Mac, la versione di macOS, il modello della fotocamera e cosa è successo.",
+  "contactHint": "Indica il tuo computer (modello di Mac e versione di macOS, oppure versione di Windows), il modello della fotocamera e cosa è successo.",
   "faqT": "Domande frequenti",
   "q1": "Prova e acquisto",
   "a1": "L’app si scarica gratis. Fai clic su «Inizia la prova gratuita di 30 giorni» per usare tutte le funzioni per 30 giorni. Dopo la prova, visualizzazione, selezione e modifica continuano a funzionare; per esportare serve l’acquisto unico di sblocco. Non ti viene mai addebitato nulla in automatico.",
@@ -2248,7 +2248,7 @@ window.BE_I18N = {
   "q3": "Dove vengono salvate le modifiche?",
   "a3": "Le foto originali non vengono mai modificate. Le modifiche sono salvate in file .xmp accanto alle foto.",
   "q4": "Un file RAW non si apre",
-  "a4": "Butter Edit apre i file RAW delle fotocamere supportate da macOS. Le fotocamere nuove spesso funzionano dopo un aggiornamento di macOS.",
+  "a4": "Su Mac, Butter Edit apre i file RAW delle fotocamere supportate da macOS; su Windows, quelli delle fotocamere supportate dal decoder RAW integrato (LibRaw). Le fotocamere nuove spesso funzionano dopo un aggiornamento di macOS o dell’app.",
   "q5": "Scatto in tethering",
   "a5": "Controlla dall’app una fotocamera collegata via USB e ricevi le nuove foto direttamente nella tua cartella. Consenti l’accesso alla fotocamera al primo collegamento.",
   "footPrivacy": "Informativa sulla privacy",
