@@ -231,7 +231,7 @@ window.BE_I18N = {
   "aiQ1": "“Give 3 stars to the best shot of each burst in this folder”",
   "aiQ2": "“Give this photo a warm film look”",
   "aiQ3": "“Match the tone of the reference photo on my desktop”",
-  "aiSafe": "There is no command that deletes photos. Adjustments and ratings can be undone with ⌘Z.",
+  "aiSafe": "There is no command that deletes photos. Adjustments can be undone (⌘Z on Mac, Ctrl+Z on Windows).",
   "rowAI": "AI Connection (Claude · ChatGPT)",
   "asAI": "Not included",
   "dAI": "Mac and Windows"
@@ -467,7 +467,7 @@ window.BE_I18N = {
   "aiQ1": "“이 폴더의 연사 중 가장 잘 나온 사진에 별 3개를 줘”",
   "aiQ2": "“이 사진을 따뜻한 필름 느낌으로 보정해 줘”",
   "aiQ3": "“바탕화면의 레퍼런스 사진과 같은 톤으로 맞춰 줘”",
-  "aiSafe": "사진을 삭제하는 명령은 없습니다. 보정과 별점은 ⌘Z로 실행 취소할 수 있습니다.",
+  "aiSafe": "사진을 삭제하는 명령은 없습니다. 보정은 실행 취소할 수 있습니다(맥 ⌘Z · 윈도우 Ctrl+Z).",
   "rowAI": "AI 연결(Claude · ChatGPT)",
   "asAI": "없음",
   "dAI": "맥 · 윈도우"
@@ -703,7 +703,7 @@ window.BE_I18N = {
   "aiQ1": "「このフォルダの連写から一番よく撮れた写真に星3つを付けて」",
   "aiQ2": "「この写真を温かいフィルム風に補正して」",
   "aiQ3": "「デスクトップの参考写真と同じトーンに合わせて」",
-  "aiSafe": "写真を削除するコマンドはありません。補正とレーティングは⌘Zで取り消せます。",
+  "aiSafe": "写真を削除するコマンドはありません。補正は取り消せます（Macは⌘Z、WindowsはCtrl+Z）。",
   "rowAI": "AI接続(Claude・ChatGPT)",
   "asAI": "なし",
   "dAI": "MacとWindows"
@@ -939,7 +939,7 @@ window.BE_I18N = {
   "aiQ1": "“给这个文件夹里每组连拍中最好的一张打 3 星”",
   "aiQ2": "“把这张照片调成温暖的胶片感”",
   "aiQ3": "“按照桌面上参考照片的色调来调”",
-  "aiSafe": "没有删除照片的命令。调整和星级可用 ⌘Z 撤销。",
+  "aiSafe": "没有删除照片的命令。调整可以撤销（Mac 用 ⌘Z，Windows 用 Ctrl+Z）。",
   "rowAI": "AI 连接（Claude · ChatGPT）",
   "asAI": "无",
   "dAI": "Mac 和 Windows"
@@ -1175,7 +1175,7 @@ window.BE_I18N = {
   "aiQ1": "「為這個檔案夾裡每組連拍中最好的一張打 3 星」",
   "aiQ2": "「把這張照片調成溫暖的底片感」",
   "aiQ3": "「按照桌面上參考照片的色調來調」",
-  "aiSafe": "沒有刪除照片的指令。調整和星級可用 ⌘Z 還原。",
+  "aiSafe": "沒有刪除照片的指令。調整可以還原（Mac 用 ⌘Z，Windows 用 Ctrl+Z）。",
   "rowAI": "AI 連線（Claude · ChatGPT）",
   "asAI": "無",
   "dAI": "Mac 與 Windows"
@@ -1411,7 +1411,7 @@ window.BE_I18N = {
   "aiQ1": "„Gib dem besten Foto jeder Serie in diesem Ordner 3 Sterne“",
   "aiQ2": "„Gib diesem Foto einen warmen Film-Look“",
   "aiQ3": "„Pass den Look an das Referenzfoto auf meinem Schreibtisch an“",
-  "aiSafe": "Es gibt keinen Befehl, der Fotos löscht. Anpassungen und Bewertungen lassen sich mit ⌘Z widerrufen.",
+  "aiSafe": "Es gibt keinen Befehl, der Fotos löscht. Anpassungen lassen sich widerrufen (⌘Z auf dem Mac, Strg+Z unter Windows).",
   "rowAI": "KI-Verbindung (Claude · ChatGPT)",
   "asAI": "Nicht enthalten",
   "dAI": "Mac und Windows"
@@ -1647,7 +1647,7 @@ window.BE_I18N = {
   "aiQ1": "« Donne 3 étoiles à la meilleure photo de chaque rafale de ce dossier »",
   "aiQ2": "« Donne à cette photo un rendu argentique chaleureux »",
   "aiQ3": "« Reprends les tons de la photo de référence sur mon bureau »",
-  "aiSafe": "Aucune commande ne supprime de photos. Les réglages et les notes peuvent être annulés avec ⌘Z.",
+  "aiSafe": "Aucune commande ne supprime de photos. Les réglages peuvent être annulés (⌘Z sur Mac, Ctrl+Z sous Windows).",
   "rowAI": "Connexion IA (Claude · ChatGPT)",
   "asAI": "Non incluse",
   "dAI": "Mac et Windows"
@@ -1883,7 +1883,7 @@ window.BE_I18N = {
   "aiQ1": "«Pon 3 estrellas a la mejor foto de cada ráfaga de esta carpeta»",
   "aiQ2": "«Dale a esta foto un aspecto de película cálido»",
   "aiQ3": "«Iguala el tono de la foto de referencia de mi escritorio»",
-  "aiSafe": "No hay ningún comando que borre fotos. Los ajustes y las valoraciones se pueden deshacer con ⌘Z.",
+  "aiSafe": "No hay ningún comando que borre fotos. Los ajustes se pueden deshacer (⌘Z en Mac, Ctrl+Z en Windows).",
   "rowAI": "Conexión con IA (Claude · ChatGPT)",
   "asAI": "No incluida",
   "dAI": "Mac y Windows"
@@ -2119,7 +2119,7 @@ window.BE_I18N = {
   "aiQ1": "“Dê 3 estrelas à melhor foto de cada sequência desta pasta”",
   "aiQ2": "“Dê a esta foto um visual de filme quente”",
   "aiQ3": "“Iguale o tom da foto de referência da minha mesa”",
-  "aiSafe": "Não há nenhum comando que apague fotos. Ajustes e classificações podem ser desfeitos com ⌘Z.",
+  "aiSafe": "Não há nenhum comando que apague fotos. Os ajustes podem ser desfeitos (⌘Z no Mac, Ctrl+Z no Windows).",
   "rowAI": "Conexão com IA (Claude · ChatGPT)",
   "asAI": "Não incluída",
   "dAI": "Mac e Windows"
@@ -2355,7 +2355,7 @@ window.BE_I18N = {
   "aiQ1": "“Dai 3 stelle alla foto migliore di ogni raffica in questa cartella”",
   "aiQ2": "“Dai a questa foto un look da pellicola caldo”",
   "aiQ3": "“Abbina il tono della foto di riferimento sulla mia scrivania”",
-  "aiSafe": "Nessun comando elimina le foto. Regolazioni e valutazioni si annullano con ⌘Z.",
+  "aiSafe": "Nessun comando elimina le foto. Le regolazioni si possono annullare (⌘Z su Mac, Ctrl+Z su Windows).",
   "rowAI": "Connessione IA (Claude · ChatGPT)",
   "asAI": "Non inclusa",
   "dAI": "Mac e Windows"
