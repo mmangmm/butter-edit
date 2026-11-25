@@ -3,7 +3,7 @@ const LINKS = {
   appStore: "",   // 맥 앱스토어 주소 (심사 승인 뒤)
   direct: "https://checkout.dodopayments.com/buy/pdt_0NsDRRyl1IPadr41aOBlq?quantity=1",   // Dodo 실제 모드 결제 링크(상품 Butter Edit, ₩24,900 / US$14.99)
   download: "https://github.com/mmangmm/butter-edit/releases/download/v1.0.2/ButterEdit-1.0.2.dmg",   // 직접 판매 맥 DMG 주소(GitHub Releases) — 구입 완료 페이지(thanks.html)의 내려받기 버튼
-  downloadWin: "https://github.com/mmangmm/butter-edit/releases/download/win-v1.0.1/ButterEdit-Setup-1.0.1.exe",   // 윈도우 설치 파일(GitHub Releases, 태그 win-v<판>)
+  downloadWin: "https://github.com/mmangmm/butter-edit/releases/download/win-v1.0.2/ButterEdit-Setup-1.0.2.exe",   // 윈도우 설치 파일(GitHub Releases, 태그 win-v<판>)
 };
 
 (function () {

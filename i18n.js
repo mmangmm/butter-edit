@@ -227,14 +227,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude Desktop",
   "f6t": "Hand it to Claude or ChatGPT",
   "f6d": "Turn on AI Connection and Claude or ChatGPT (Codex) can operate Butter Edit for you: pick the best shot of each burst, grade a photo from a description, match the tone of a reference photo, and add masks, crop and export — just by asking.",
-  "aiNote": "For the Mac version bought direct. Needs your own Claude or ChatGPT account. Off by default; while it is on, small preview images the AI looks at are sent to the AI service you connected.",
+  "aiNote": "For the version bought direct (Mac and Windows). Needs your own Claude or ChatGPT account. Off by default; while it is on, small preview images the AI looks at are sent to the AI service you connected.",
   "aiQ1": "“Give 3 stars to the best shot of each burst in this folder”",
   "aiQ2": "“Give this photo a warm film look”",
   "aiQ3": "“Match the tone of the reference photo on my desktop”",
   "aiSafe": "There is no command that deletes photos. Adjustments and ratings can be undone with ⌘Z.",
   "rowAI": "AI Connection (Claude · ChatGPT)",
   "asAI": "Not included",
-  "dAI": "Mac"
+  "dAI": "Mac and Windows"
  },
  "ko": {
   "subtitle": "폴더 그대로 여는 빠른 RAW 편집",
@@ -463,14 +463,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude 데스크톱",
   "f6t": "Claude · ChatGPT에게 말로 맡기기",
   "f6d": "AI 연결을 켜면 Claude나 ChatGPT(Codex)가 버터 편집을 직접 조작합니다. 연사에서 가장 잘 나온 컷 고르기, 말로 설명한 색감 보정, 레퍼런스 사진과 같은 톤 맞추기, 마스크 · 자르기 · 내보내기까지 대화로 맡길 수 있습니다.",
-  "aiNote": "맥 직접 구입판 기능입니다. Claude 또는 ChatGPT 계정이 따로 필요합니다. 처음에는 꺼져 있고, 켜 둔 동안에는 AI가 보는 작은 미리보기 그림이 연결한 AI 서비스로 전송됩니다.",
+  "aiNote": "직접 구입판(맥 · 윈도우) 기능입니다. Claude 또는 ChatGPT 계정이 따로 필요합니다. 처음에는 꺼져 있고, 켜 둔 동안에는 AI가 보는 작은 미리보기 그림이 연결한 AI 서비스로 전송됩니다.",
   "aiQ1": "“이 폴더의 연사 중 가장 잘 나온 사진에 별 3개를 줘”",
   "aiQ2": "“이 사진을 따뜻한 필름 느낌으로 보정해 줘”",
   "aiQ3": "“바탕화면의 레퍼런스 사진과 같은 톤으로 맞춰 줘”",
   "aiSafe": "사진을 삭제하는 명령은 없습니다. 보정과 별점은 ⌘Z로 실행 취소할 수 있습니다.",
   "rowAI": "AI 연결(Claude · ChatGPT)",
   "asAI": "없음",
-  "dAI": "맥"
+  "dAI": "맥 · 윈도우"
  },
  "ja": {
   "subtitle": "フォルダで開く高速RAW現像",
@@ -699,14 +699,14 @@ window.BE_I18N = {
   "aiDesktop": "Claudeデスクトップ",
   "f6t": "Claude・ChatGPTに話して任せる",
   "f6d": "AI接続をオンにすると、ClaudeやChatGPT(Codex)がButter Editを直接操作します。連写から一番よく撮れたカットを選ぶ、言葉で伝えた色味に補正する、参考写真と同じトーンに合わせる、マスク・切り抜き・書き出しまで会話で任せられます。",
-  "aiNote": "Mac直接購入版の機能です。ClaudeまたはChatGPTのアカウントが別途必要です。初期設定ではオフで、オンの間はAIが見る小さなプレビュー画像が接続したAIサービスに送信されます。",
+  "aiNote": "直接購入版（Mac・Windows）の機能です。ClaudeまたはChatGPTのアカウントが別途必要です。初期設定ではオフで、オンの間はAIが見る小さなプレビュー画像が接続したAIサービスに送信されます。",
   "aiQ1": "「このフォルダの連写から一番よく撮れた写真に星3つを付けて」",
   "aiQ2": "「この写真を温かいフィルム風に補正して」",
   "aiQ3": "「デスクトップの参考写真と同じトーンに合わせて」",
   "aiSafe": "写真を削除するコマンドはありません。補正とレーティングは⌘Zで取り消せます。",
   "rowAI": "AI接続(Claude・ChatGPT)",
   "asAI": "なし",
-  "dAI": "Mac"
+  "dAI": "MacとWindows"
  },
  "zh-Hans": {
   "subtitle": "按文件夹打开的快速 RAW 编辑器",
@@ -935,14 +935,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude 桌面版",
   "f6t": "说一声，交给 Claude 或 ChatGPT",
   "f6d": "打开 AI 连接后，Claude 或 ChatGPT（Codex）可以直接操作 Butter Edit：从连拍中挑出最好的一张、按你描述的感觉调色、匹配参考照片的色调，还能添加蒙版、裁剪和导出——只要开口说。",
-  "aiNote": "Mac 直接购买版的功能。需要你自己的 Claude 或 ChatGPT 账户。默认关闭；打开期间，AI 查看的小尺寸预览图会发送到你连接的 AI 服务。",
+  "aiNote": "直接购买版（Mac 和 Windows）的功能。需要你自己的 Claude 或 ChatGPT 账户。默认关闭；打开期间，AI 查看的小尺寸预览图会发送到你连接的 AI 服务。",
   "aiQ1": "“给这个文件夹里每组连拍中最好的一张打 3 星”",
   "aiQ2": "“把这张照片调成温暖的胶片感”",
   "aiQ3": "“按照桌面上参考照片的色调来调”",
   "aiSafe": "没有删除照片的命令。调整和星级可用 ⌘Z 撤销。",
   "rowAI": "AI 连接（Claude · ChatGPT）",
   "asAI": "无",
-  "dAI": "Mac"
+  "dAI": "Mac 和 Windows"
  },
  "zh-Hant": {
   "subtitle": "以資料夾開啟的快速 RAW 編輯器",
@@ -1171,14 +1171,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude 桌面版",
   "f6t": "說一聲，交給 Claude 或 ChatGPT",
   "f6d": "開啟 AI 連線後，Claude 或 ChatGPT（Codex）可以直接操作 Butter Edit：從連拍中挑出最好的一張、依你描述的感覺調色、對齊參考照片的色調，還能加入遮色片、裁切與輸出——只要開口說。",
-  "aiNote": "Mac 直接購買版的功能。需要你自己的 Claude 或 ChatGPT 帳號。預設關閉；開啟期間，AI 查看的小尺寸預覽圖會傳送到你連線的 AI 服務。",
+  "aiNote": "直接購買版（Mac 與 Windows）的功能。需要你自己的 Claude 或 ChatGPT 帳號。預設關閉；開啟期間，AI 查看的小尺寸預覽圖會傳送到你連線的 AI 服務。",
   "aiQ1": "「為這個檔案夾裡每組連拍中最好的一張打 3 星」",
   "aiQ2": "「把這張照片調成溫暖的底片感」",
   "aiQ3": "「按照桌面上參考照片的色調來調」",
   "aiSafe": "沒有刪除照片的指令。調整和星級可用 ⌘Z 還原。",
   "rowAI": "AI 連線（Claude · ChatGPT）",
   "asAI": "無",
-  "dAI": "Mac"
+  "dAI": "Mac 與 Windows"
  },
  "de": {
   "subtitle": "RAW-Editor ohne Import",
@@ -1407,14 +1407,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude Desktop",
   "f6t": "Einfach Claude oder ChatGPT fragen",
   "f6d": "Schalte die KI-Verbindung ein, und Claude oder ChatGPT (Codex) bedient Butter Edit für dich: das beste Foto jeder Serie auswählen, ein Foto nach deiner Beschreibung bearbeiten, den Look eines Referenzfotos übernehmen, Masken, Zuschnitt und Export – alles per Anfrage.",
-  "aiNote": "Funktion der direkt gekauften Mac-Version. Du brauchst ein eigenes Claude- oder ChatGPT-Konto. Standardmäßig aus; solange sie an ist, werden kleine Vorschaubilder, die die KI ansieht, an den verbundenen KI-Dienst gesendet.",
+  "aiNote": "Funktion der direkt gekauften Version (Mac und Windows). Du brauchst ein eigenes Claude- oder ChatGPT-Konto. Standardmäßig aus; solange sie an ist, werden kleine Vorschaubilder, die die KI ansieht, an den verbundenen KI-Dienst gesendet.",
   "aiQ1": "„Gib dem besten Foto jeder Serie in diesem Ordner 3 Sterne“",
   "aiQ2": "„Gib diesem Foto einen warmen Film-Look“",
   "aiQ3": "„Pass den Look an das Referenzfoto auf meinem Schreibtisch an“",
   "aiSafe": "Es gibt keinen Befehl, der Fotos löscht. Anpassungen und Bewertungen lassen sich mit ⌘Z widerrufen.",
   "rowAI": "KI-Verbindung (Claude · ChatGPT)",
   "asAI": "Nicht enthalten",
-  "dAI": "Mac"
+  "dAI": "Mac und Windows"
  },
  "fr": {
   "subtitle": "Éditeur RAW rapide par dossier",
@@ -1643,14 +1643,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude Desktop",
   "f6t": "Confiez-le à Claude ou ChatGPT",
   "f6d": "Activez la connexion IA et Claude ou ChatGPT (Codex) pilote Butter Edit pour vous : choisir la meilleure photo de chaque rafale, retoucher une photo d’après une description, reprendre les tons d’une photo de référence, ajouter des masques, recadrer et exporter — simplement en le demandant.",
-  "aiNote": "Fonction de la version Mac achetée en direct. Un compte Claude ou ChatGPT est nécessaire. Désactivée par défaut ; tant qu’elle est active, de petites images d’aperçu examinées par l’IA sont envoyées au service d’IA connecté.",
+  "aiNote": "Fonction de la version achetée en direct (Mac et Windows). Un compte Claude ou ChatGPT est nécessaire. Désactivée par défaut ; tant qu’elle est active, de petites images d’aperçu examinées par l’IA sont envoyées au service d’IA connecté.",
   "aiQ1": "« Donne 3 étoiles à la meilleure photo de chaque rafale de ce dossier »",
   "aiQ2": "« Donne à cette photo un rendu argentique chaleureux »",
   "aiQ3": "« Reprends les tons de la photo de référence sur mon bureau »",
   "aiSafe": "Aucune commande ne supprime de photos. Les réglages et les notes peuvent être annulés avec ⌘Z.",
   "rowAI": "Connexion IA (Claude · ChatGPT)",
   "asAI": "Non incluse",
-  "dAI": "Mac"
+  "dAI": "Mac et Windows"
  },
  "es": {
   "subtitle": "Editor RAW rápido por carpetas",
@@ -1879,14 +1879,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude Desktop",
   "f6t": "Pídeselo a Claude o ChatGPT",
   "f6d": "Activa la conexión con IA y Claude o ChatGPT (Codex) maneja Butter Edit por ti: elegir la mejor foto de cada ráfaga, editar una foto según lo que describas, igualar el tono de una foto de referencia, añadir máscaras, recortar y exportar, solo con pedirlo.",
-  "aiNote": "Función de la versión para Mac comprada directamente. Necesitas tu propia cuenta de Claude o ChatGPT. Viene desactivada; mientras esté activada, se envían al servicio de IA conectado pequeñas imágenes de vista previa que la IA revisa.",
+  "aiNote": "Función de la versión comprada directamente (Mac y Windows). Necesitas tu propia cuenta de Claude o ChatGPT. Viene desactivada; mientras esté activada, se envían al servicio de IA conectado pequeñas imágenes de vista previa que la IA revisa.",
   "aiQ1": "«Pon 3 estrellas a la mejor foto de cada ráfaga de esta carpeta»",
   "aiQ2": "«Dale a esta foto un aspecto de película cálido»",
   "aiQ3": "«Iguala el tono de la foto de referencia de mi escritorio»",
   "aiSafe": "No hay ningún comando que borre fotos. Los ajustes y las valoraciones se pueden deshacer con ⌘Z.",
   "rowAI": "Conexión con IA (Claude · ChatGPT)",
   "asAI": "No incluida",
-  "dAI": "Mac"
+  "dAI": "Mac y Windows"
  },
  "pt-BR": {
   "subtitle": "Editor RAW rápido por pastas",
@@ -2115,14 +2115,14 @@ window.BE_I18N = {
   "aiDesktop": "Claude Desktop",
   "f6t": "Peça ao Claude ou ao ChatGPT",
   "f6d": "Ative a conexão com IA e o Claude ou o ChatGPT (Codex) opera o Butter Edit por você: escolher a melhor foto de cada sequência, editar uma foto pelo que você descrever, igualar o tom de uma foto de referência, adicionar máscaras, recortar e exportar — é só pedir.",
-  "aiNote": "Recurso da versão para Mac comprada diretamente. É preciso ter sua própria conta do Claude ou do ChatGPT. Vem desligada; enquanto estiver ligada, pequenas imagens de prévia que a IA examina são enviadas ao serviço de IA conectado.",
+  "aiNote": "Recurso da versão comprada diretamente (Mac e Windows). É preciso ter sua própria conta do Claude ou do ChatGPT. Vem desligada; enquanto estiver ligada, pequenas imagens de prévia que a IA examina são enviadas ao serviço de IA conectado.",
   "aiQ1": "“Dê 3 estrelas à melhor foto de cada sequência desta pasta”",
   "aiQ2": "“Dê a esta foto um visual de filme quente”",
   "aiQ3": "“Iguale o tom da foto de referência da minha mesa”",
   "aiSafe": "Não há nenhum comando que apague fotos. Ajustes e classificações podem ser desfeitos com ⌘Z.",
   "rowAI": "Conexão com IA (Claude · ChatGPT)",
   "asAI": "Não incluída",
-  "dAI": "Mac"
+  "dAI": "Mac e Windows"
  },
  "it": {
   "subtitle": "Editor RAW veloce per cartelle",
@@ -2351,13 +2351,13 @@ window.BE_I18N = {
   "aiDesktop": "Claude Desktop",
   "f6t": "Chiedilo a Claude o ChatGPT",
   "f6d": "Attiva la connessione IA e Claude o ChatGPT (Codex) usa Butter Edit al posto tuo: scegliere la foto migliore di ogni raffica, ritoccare una foto in base a una descrizione, riprendere i toni di una foto di riferimento, aggiungere maschere, ritagliare ed esportare, basta chiederlo.",
-  "aiNote": "Funzione della versione per Mac acquistata direttamente. Serve un tuo account Claude o ChatGPT. È disattivata all’inizio; quando è attiva, piccole immagini di anteprima esaminate dall’IA vengono inviate al servizio di IA collegato.",
+  "aiNote": "Funzione della versione acquistata direttamente (Mac e Windows). Serve un tuo account Claude o ChatGPT. È disattivata all’inizio; quando è attiva, piccole immagini di anteprima esaminate dall’IA vengono inviate al servizio di IA collegato.",
   "aiQ1": "“Dai 3 stelle alla foto migliore di ogni raffica in questa cartella”",
   "aiQ2": "“Dai a questa foto un look da pellicola caldo”",
   "aiQ3": "“Abbina il tono della foto di riferimento sulla mia scrivania”",
   "aiSafe": "Nessun comando elimina le foto. Regolazioni e valutazioni si annullano con ⌘Z.",
   "rowAI": "Connessione IA (Claude · ChatGPT)",
   "asAI": "Non inclusa",
-  "dAI": "Mac"
+  "dAI": "Mac e Windows"
  }
 };
