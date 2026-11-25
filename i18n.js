@@ -2,7 +2,7 @@
 window.BE_I18N = {
  "en": {
   "subtitle": "Fast folder-based RAW editor",
-  "promo": "Open a folder and start right away — view, cull and develop with no import. Your photos never leave your Mac, and all AI runs on-device.",
+  "promo": "Open a folder and start right away — view, cull and develop with no import. Your photos never leave your Mac or Windows PC, and all AI runs on-device.",
   "intro": "Butter Edit is a photo editor with no import and no catalog. Open a folder from an SD card or an external SSD and your photos appear right away — browse, cull, develop RAW and edit. It is built to move through thousands of shots quickly.",
   "groups": [
    {
@@ -238,7 +238,7 @@ window.BE_I18N = {
  },
  "ko": {
   "subtitle": "폴더 그대로 여는 빠른 RAW 편집",
-  "promo": "가져오기 없이 폴더를 열면 바로 보고, 고르고, 현상합니다. 사진은 맥 밖으로 나가지 않고, AI는 모두 맥 안에서 돕니다.",
+  "promo": "가져오기 없이 폴더를 열면 바로 보고, 고르고, 현상합니다. 사진은 맥 · 윈도우 PC 밖으로 나가지 않고, AI는 모두 내 컴퓨터 안에서 돕니다.",
   "intro": "버터 편집은 가져오기도 카탈로그도 없는 사진 편집 앱입니다. SD카드나 외장 SSD의 폴더를 열면 바로 사진이 뜨고, 고르고, RAW를 현상하고, 보정합니다. 수천 장도 빠르게 넘기도록 만들었습니다.",
   "groups": [
    {
@@ -474,7 +474,7 @@ window.BE_I18N = {
  },
  "ja": {
   "subtitle": "フォルダで開く高速RAW現像",
-  "promo": "フォルダを開けばすぐに始められます。読み込み不要で閲覧・選別・現像。写真がMacの外に出ることはなく、AIもすべてMac上で動きます。",
+  "promo": "フォルダを開けばすぐに始められます。読み込み不要で閲覧・選別・現像。写真がMacやWindows PCの外に出ることはなく、AIもすべてパソコン上で動きます。",
   "intro": "Butter Editは、読み込みもカタログもいらない写真編集アプリです。SDカードや外付けSSDのフォルダを開けば、写真がすぐに並びます。閲覧、選別、RAW現像、編集まで。何千枚もの写真をすばやく扱えるように作りました。",
   "groups": [
    {
@@ -710,7 +710,7 @@ window.BE_I18N = {
  },
  "zh-Hans": {
   "subtitle": "按文件夹打开的快速 RAW 编辑器",
-  "promo": "打开文件夹即可开始：无需导入，直接浏览、筛选和冲印。照片绝不离开你的 Mac，所有 AI 都在设备上运行。",
+  "promo": "打开文件夹即可开始：无需导入，直接浏览、筛选和冲印。照片绝不离开你的 Mac 或 Windows 电脑，所有 AI 都在设备上运行。",
   "intro": "Butter Edit 是一款无需导入、没有图库目录的照片编辑器。打开 SD 卡或外置 SSD 上的文件夹，照片立即出现——浏览、筛选、冲印 RAW 并编辑。它专为快速处理成千上万张照片而打造。",
   "groups": [
    {
@@ -946,7 +946,7 @@ window.BE_I18N = {
  },
  "zh-Hant": {
   "subtitle": "以資料夾開啟的快速 RAW 編輯器",
-  "promo": "打開資料夾就能開始：不必匯入，直接瀏覽、挑選和沖印。照片絕不離開你的 Mac，所有 AI 都在裝置上執行。",
+  "promo": "打開資料夾就能開始：不必匯入，直接瀏覽、挑選和沖印。照片絕不離開你的 Mac 或 Windows 電腦，所有 AI 都在裝置上執行。",
   "intro": "Butter Edit 是一款不必匯入、沒有圖庫目錄的照片編輯器。打開 SD 卡或外接 SSD 上的資料夾，照片馬上出現——瀏覽、挑選、沖印 RAW 並編輯。它專為快速處理成千上萬張照片而設計。",
   "groups": [
    {
@@ -1182,7 +1182,7 @@ window.BE_I18N = {
  },
  "de": {
   "subtitle": "RAW-Editor ohne Import",
-  "promo": "Ordner öffnen und sofort loslegen – ansehen, aussortieren und entwickeln ohne Import. Deine Fotos verlassen nie deinen Mac, und die KI läuft komplett auf dem Gerät.",
+  "promo": "Ordner öffnen und sofort loslegen – ansehen, aussortieren und entwickeln ohne Import. Deine Fotos verlassen nie deinen Mac oder Windows-PC, und die KI läuft komplett auf dem Gerät.",
   "intro": "Butter Edit ist ein Fotoeditor ohne Import und ohne Katalog. Öffne einen Ordner von einer SD-Karte oder einer externen SSD, und deine Fotos erscheinen sofort – ansehen, aussortieren, RAW entwickeln und bearbeiten. Gemacht, um schnell durch Tausende Aufnahmen zu kommen.",
   "groups": [
    {
@@ -1418,7 +1418,7 @@ window.BE_I18N = {
  },
  "fr": {
   "subtitle": "Éditeur RAW rapide par dossier",
-  "promo": "Ouvrez un dossier et commencez aussitôt : visionnez, triez et développez sans importation. Vos photos ne quittent jamais votre Mac et toute l’IA tourne sur l’appareil.",
+  "promo": "Ouvrez un dossier et commencez aussitôt : visionnez, triez et développez sans importation. Vos photos ne quittent jamais votre Mac ou PC Windows, et toute l’IA tourne sur l’appareil.",
   "intro": "Butter Edit est un éditeur photo sans importation ni catalogue. Ouvrez un dossier d’une carte SD ou d’un SSD externe et vos photos s’affichent aussitôt : visionnez, triez, développez vos RAW et retouchez. Il est conçu pour parcourir rapidement des milliers de clichés.",
   "groups": [
    {
@@ -1654,7 +1654,7 @@ window.BE_I18N = {
  },
  "es": {
   "subtitle": "Editor RAW rápido por carpetas",
-  "promo": "Abre una carpeta y empieza al momento: mira, selecciona y revela sin importar. Tus fotos nunca salen de tu Mac y toda la IA funciona en el propio dispositivo.",
+  "promo": "Abre una carpeta y empieza al momento: mira, selecciona y revela sin importar. Tus fotos nunca salen de tu Mac o PC con Windows, y toda la IA funciona en el propio dispositivo.",
   "intro": "Butter Edit es un editor de fotos sin importación y sin catálogo. Abre una carpeta de una tarjeta SD o de un SSD externo y tus fotos aparecen al instante: mira, selecciona, revela RAW y edita. Está hecho para moverse rápido entre miles de fotos.",
   "groups": [
    {
@@ -1890,7 +1890,7 @@ window.BE_I18N = {
  },
  "pt-BR": {
   "subtitle": "Editor RAW rápido por pastas",
-  "promo": "Abra uma pasta e comece na hora: veja, selecione e revele sem importar. Suas fotos nunca saem do seu Mac, e toda a IA roda no próprio dispositivo.",
+  "promo": "Abra uma pasta e comece na hora: veja, selecione e revele sem importar. Suas fotos nunca saem do seu Mac ou PC com Windows, e toda a IA roda no próprio dispositivo.",
   "intro": "O Butter Edit é um editor de fotos sem importação e sem catálogo. Abra uma pasta de um cartão SD ou de um SSD externo e suas fotos aparecem na hora: veja, selecione, revele RAW e edite. Ele foi feito para percorrer milhares de fotos com rapidez.",
   "groups": [
    {
@@ -2126,7 +2126,7 @@ window.BE_I18N = {
  },
  "it": {
   "subtitle": "Editor RAW veloce per cartelle",
-  "promo": "Apri una cartella e inizia subito: guarda, seleziona e sviluppa senza importare. Le tue foto non lasciano mai il Mac e tutta l’IA funziona sul dispositivo.",
+  "promo": "Apri una cartella e inizia subito: guarda, seleziona e sviluppa senza importare. Le tue foto non lasciano mai il Mac o il PC Windows, e tutta l’IA funziona sul dispositivo.",
   "intro": "Butter Edit è un editor di foto senza importazione e senza catalogo. Apri una cartella da una scheda SD o da un SSD esterno e le foto compaiono subito: guarda, seleziona, sviluppa i RAW e modifica. È pensato per scorrere migliaia di scatti in fretta.",
   "groups": [
    {
