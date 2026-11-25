@@ -67,6 +67,15 @@ a.btn:hover { transform: translateY(-1px); }
 .feature h2 { font-size: clamp(24px, 3.2vw, 34px); line-height: 1.2; letter-spacing: -0.015em; margin: 0 0 12px; }
 .feature p { color: var(--ash); margin: 0; }
 
+/* AI 연결 칸 */
+.ai-note { margin-top: 14px !important; font-size: 14px; }
+.ai-card { background: var(--raised); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 22px 24px; }
+.ai-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; align-items: baseline; margin-bottom: 14px; }
+.ai-apps { color: var(--ash); font-size: 13px; }
+.ai-q { display: flex; gap: 12px; align-items: baseline; margin: 0; padding: 13px 0; border-top: 1px solid var(--line); font-size: 17px; }
+.ai-i { color: var(--blue); width: 1.2em; flex: none; text-align: center; }
+.ai-safe { margin: 0; padding-top: 13px; border-top: 1px solid var(--line); color: var(--ash); font-size: 13px; }
+
 /* 모든 기능 */
 .band { background: var(--raised); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 72px 0; }
 .title { font-size: clamp(26px, 3.6vw, 38px); letter-spacing: -0.015em; text-align: center; margin: 0 0 12px; line-height: 1.2; }
