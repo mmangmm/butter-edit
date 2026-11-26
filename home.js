@@ -18,7 +18,10 @@ const LINKS = {
   const root = body.dataset.root || "";
   const group = body.dataset.group;   // 상세 페이지일 때만
 
+  // 언어별 페이지(/ko/ · /ja/ …)는 그 언어로 고정. 영어 원본(루트)만 브라우저 언어를 따라 바꿔 보인다
+  const fixed = body.dataset.lang;
   function pick() {
+    if (fixed && T[fixed]) return fixed;
     const q = new URLSearchParams(location.search).get("lang");
     if (q && T[q]) return q;
     try { const s = localStorage.getItem("be-lang"); if (s && T[s]) return s; } catch (e) {}
@@ -34,7 +37,13 @@ const LINKS = {
   }
 
   function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
-  function withLang(href, lang) { return `${href}${href.includes("?") ? "&" : "?"}lang=${lang}`; }
+  function withLang(href, lang) { return fixed ? href : `${href}${href.includes("?") ? "&" : "?"}lang=${lang}`; }
+  // 이 페이지가 언어별로 구워 둔 페이지(첫 화면 · 구입 · 기능 8장)면 그 언어 주소, 아니면 null
+  function langURL(l) {
+    const page = group ? `features/${group}.html` : body.dataset.page === "buy" ? "buy.html" : body.dataset.page ? null : "index.html";
+    if (!page) return null;
+    return root + (l === "en" ? "" : l + "/") + (page === "index.html" ? "" : page) + location.hash;
+  }
   function featureHref(slug) { return group ? `${slug}.html` : `features/${slug}.html`; }
 
   function renderGroups(d, lang) {
@@ -247,6 +256,8 @@ const LINKS = {
   sel.addEventListener("change", () => {
     const l = sel.value;
     try { localStorage.setItem("be-lang", l); } catch (e) {}
+    const to = langURL(l);
+    if (to) { location.href = to; return; }
     const u = new URL(location.href); u.searchParams.set("lang", l); history.replaceState(null, "", u);
     apply(l);
   });
